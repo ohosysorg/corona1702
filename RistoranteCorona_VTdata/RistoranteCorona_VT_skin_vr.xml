@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.19-pr16">
+
+    
+
+
+  <style name="IconDefaultPointSpotStyle"
+         url="%FIRSTXML%/spots/hotspot_neutral_sequence_user_defaultpoint0.png"
+         visible="false"
+         frame="0"
+         lastframe="18"
+         framewidth="68"
+         frameheight="68"
+         stopspotsequence="false"
+         crop="0|0|68|68"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconDefaultPointSpotStyle"
+         onout="onoutIconDefaultPointSpotStyle"
+
+
+         />
+  <action name="onhoverIconDefaultPointSpotStyle">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconDefaultPointSpotStyle">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+  
+  <style name="PolygonDefaultPolygonSpotStyle"
+           visible="false"
+           bordercolor="0x984b35"
+           fillcolor="0x7e817b"
+           borderwidth="1"
+           borderalpha="1"
+           fillalpha="0"
+           capture="false"
+           onhover="onhoverPolygonDefaultPolygonSpotStyle"
+           onover="onoverPolygonDefaultPolygonSpotStyle"
+           onout="onoutPolygonDefaultPolygonSpotStyle"
+           />
+  <action name="onhoverPolygonDefaultPolygonSpotStyle">
+    showTooltip('hotspot');
+  </action>
+
+  <action name="onoverPolygonDefaultPolygonSpotStyle">
+    set(bordercolor, 0x1e20c9);
+    set(fillcolor, 0x984b35);
+    set(borderalpha, 0.40000000000000002);
+    set(fillalpha, 0.59999999999999998);
+    set(borderwidth, 3);pauseautorotation(forcehotspot);
+
+  </action>
+
+  <action name="onoutPolygonDefaultPolygonSpotStyle">
+
+    set(bordercolor, 0x984b35);
+    set(fillcolor, 0x7e817b);
+    set(borderalpha, 1);
+    set(fillalpha, 0);
+
+    set(borderwidth, 1);
+    hideTooltip();resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+
+
+  <style name="IconDefaultPointSpotStyle1"
+         url="%FIRSTXML%/spots/hotspot_direction_user_defaultpoint1.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIconDefaultPointSpotStyle1"
+         onout="onoutIconDefaultPointSpotStyle1"
+
+
+         />
+  <action name="onhoverIconDefaultPointSpotStyle1">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconDefaultPointSpotStyle1">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+
+
+  <style name="IconApriGalleriaPERSONALE"
+         url="%FIRSTXML%/spots/hotspot_image_sequence_user_defaultpoint6.png"
+         visible="false"
+         frame="0"
+         lastframe="19"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         alpha="0.8"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconApriGalleriaPERSONALE"
+         onover="onoverIconApriGalleriaPERSONALE"
+         onout="onoutIconApriGalleriaPERSONALE"
+
+         height="50"
+         width="50"
+         />
+  <action name="onhoverIconApriGalleriaPERSONALE">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIconApriGalleriaPERSONALE">
+tween(scale, 1.2);
+tween(alpha, 1);
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIconApriGalleriaPERSONALE">
+    hideTooltip();
+    tween(scale, 1);
+    tween(alpha, 0.8);
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+  
+
+
+    
+
+
+  <style name="Iconskinplus"
+         url="%FIRSTXML%/spots/hotspot_neutral_sequence_user_defaultpoint11.png"
+         visible="false"
+         frame="0"
+         lastframe="17"
+         framewidth="70"
+         frameheight="70"
+         stopspotsequence="false"
+         crop="0|0|70|70"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconskinplus"
+         onover="onoverIconskinplus"
+         onout="onoutIconskinplus"
+
+         height="50"
+         width="50"
+         />
+  <action name="onhoverIconskinplus">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIconskinplus">
+tween(scale, 1.2);
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIconskinplus">
+    hideTooltip();
+    tween(scale, 1);
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+
+
+  <style name="IconApriGalleriaCUCINA"
+         url="%FIRSTXML%/spots/hotspot_image_sequence_user_defaultpoint14.png"
+         visible="false"
+         frame="0"
+         lastframe="19"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         alpha="0.8"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconApriGalleriaCUCINA"
+         onover="onoverIconApriGalleriaCUCINA"
+         onout="onoutIconApriGalleriaCUCINA"
+
+         height="50"
+         width="50"
+         />
+  <action name="onhoverIconApriGalleriaCUCINA">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIconApriGalleriaCUCINA">
+tween(scale, 1.2);
+tween(alpha, 1);
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIconApriGalleriaCUCINA">
+    hideTooltip();
+    tween(scale, 1);
+    tween(alpha, 0.8);
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+
+
+  <style name="IconApriGalleriaQUADRO-CORRIDOIO"
+         url="%FIRSTXML%/spots/hotspot_image_sequence_user_defaultpoint111.png"
+         visible="false"
+         frame="0"
+         lastframe="19"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         alpha="0.8"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconApriGalleriaQUADRO-CORRIDOIO"
+         onover="onoverIconApriGalleriaQUADRO-CORRIDOIO"
+         onout="onoutIconApriGalleriaQUADRO-CORRIDOIO"
+
+         height="50"
+         width="50"
+         />
+  <action name="onhoverIconApriGalleriaQUADRO-CORRIDOIO">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIconApriGalleriaQUADRO-CORRIDOIO">
+tween(scale, 1.2);
+tween(alpha, 1);
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIconApriGalleriaQUADRO-CORRIDOIO">
+    hideTooltip();
+    tween(scale, 1);
+    tween(alpha, 0.8);
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+
+
+  <style name="IconApriGalleriaPIAZZAROMA"
+         url="%FIRSTXML%/spots/hotspot_image_sequence_user_defaultpoint15.png"
+         visible="false"
+         frame="0"
+         lastframe="19"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         alpha="0.8"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconApriGalleriaPIAZZAROMA"
+         onover="onoverIconApriGalleriaPIAZZAROMA"
+         onout="onoutIconApriGalleriaPIAZZAROMA"
+
+         height="50"
+         width="50"
+         />
+  <action name="onhoverIconApriGalleriaPIAZZAROMA">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIconApriGalleriaPIAZZAROMA">
+tween(scale, 1.2);
+tween(alpha, 1);
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIconApriGalleriaPIAZZAROMA">
+    hideTooltip();
+    tween(scale, 1);
+    tween(alpha, 0.8);
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+
+
+  <style name="IconApriGalleriaGELATO"
+         url="%FIRSTXML%/spots/hotspot_image_sequence_user_defaultpoint9.png"
+         visible="false"
+         frame="0"
+         lastframe="19"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         alpha="0.8"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconApriGalleriaGELATO"
+         onover="onoverIconApriGalleriaGELATO"
+         onout="onoutIconApriGalleriaGELATO"
+
+         height="50"
+         width="50"
+         />
+  <action name="onhoverIconApriGalleriaGELATO">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIconApriGalleriaGELATO">
+tween(scale, 1.2);
+tween(alpha, 1);
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIconApriGalleriaGELATO">
+    hideTooltip();
+    tween(scale, 1);
+    tween(alpha, 0.8);
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+
+
+  <style name="IconApriGalleriaVENDITA"
+         url="%FIRSTXML%/spots/hotspot_image_sequence_user_defaultpoint10.png"
+         visible="false"
+         frame="0"
+         lastframe="19"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         alpha="0.8"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconApriGalleriaVENDITA"
+         onover="onoverIconApriGalleriaVENDITA"
+         onout="onoutIconApriGalleriaVENDITA"
+
+         height="50"
+         width="50"
+         />
+  <action name="onhoverIconApriGalleriaVENDITA">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIconApriGalleriaVENDITA">
+tween(scale, 1.2);
+tween(alpha, 1);
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIconApriGalleriaVENDITA">
+    hideTooltip();
+    tween(scale, 1);
+    tween(alpha, 0.8);
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+
+
+  <style name="IconApriGalleriaPIATTI"
+         url="%FIRSTXML%/spots/hotspot_image_sequence_user_defaultpoint16.png"
+         visible="false"
+         frame="0"
+         lastframe="19"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         alpha="0.8"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconApriGalleriaPIATTI"
+         onover="onoverIconApriGalleriaPIATTI"
+         onout="onoutIconApriGalleriaPIATTI"
+
+         height="50"
+         width="50"
+         />
+  <action name="onhoverIconApriGalleriaPIATTI">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIconApriGalleriaPIATTI">
+tween(scale, 1.2);
+tween(alpha, 1);
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIconApriGalleriaPIATTI">
+    hideTooltip();
+    tween(scale, 1);
+    tween(alpha, 0.8);
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+
+
+  <style name="IconApriGalleriaTARTUFO"
+         url="%FIRSTXML%/spots/hotspot_image_sequence_user_defaultpoint12.png"
+         visible="false"
+         frame="0"
+         lastframe="19"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         alpha="0.8"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconApriGalleriaTARTUFO"
+         onover="onoverIconApriGalleriaTARTUFO"
+         onout="onoutIconApriGalleriaTARTUFO"
+
+         height="50"
+         width="50"
+         />
+  <action name="onhoverIconApriGalleriaTARTUFO">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIconApriGalleriaTARTUFO">
+tween(scale, 1.2);
+tween(alpha, 1);
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIconApriGalleriaTARTUFO">
+    hideTooltip();
+    tween(scale, 1);
+    tween(alpha, 0.8);
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+<action name="setViewFisheye">
+	set(sceneisfull360, false);
+	if(scene[get(xml.scene)].full360,
+		sub(viewhfov, panoview.hmax, panoview.hmin);
+		if (viewhfov == 360,
+			sub(viewvfov, panoview.vmax, panoview.vmin);
+			if (viewvfov == 180,
+				set(sceneisfull360, true);
+			);
+		);
+	);
+	if (sceneisfull360 AND (device.webgl OR device.flash),
+		if(normalViewActivated,stopSetViewTweens(););
+		if(current_view_isflat === true,
+			setViewNonFlat(VFOV);
+		);
+		setViewFisheyeComplete();
+	);
+</action>
+
+<action name="setViewFisheyeComplete">
+	set(view.fisheyefovlink, 1.5);
+	set(view.fovmax, get(panoview.fovmax));
+	tween(view.architectural, 0.0, distance(1.0, 0.30));
+	tween(view.fisheye, 0.0, distance(1.0, 0.30), easeOutQuad,
+		set(view.stereographic,false);
+		tween(view.fisheye, 0.45, distance(1.0, 0.75));
+		tween(view.vlookat, get(panoview.v), distance(90, 0.45));
+	);
+	tween(view.pannini, 0.0, distance(1.0, 0.75), easeOutQuad, if(panniniViewActivated,restoreViewFromPannini();););
+	tween(view.fov, get(panoview.fov), distance(50, 0.45));
+</action>
+
+  <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);js(setFullscreen(false));</action>
+  <action name="enterFullScreen" devices="fullscreensupport">set(tour_fullscreen,true);js(setFullscreen(true));</action>
+  <action name="switchFullScreen">if(tour_fullscreen,exitFullScreen();,enterFullScreen(););</action>
+
+  
+  <events name="krpanoExitFullscreenEvent"
+    onexitfullscreen="if(tour_fullscreen,exitFullScreenChangeEvent(););"
+    keep="true" />
+
+  <action name="exitFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,false);events.dispatch(onexitfullscreen);</action>
+  <action name="enterFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,true);events.dispatch(onenterfullscreen);</action>
+  <action name="exitFullScreenFallback">set(fullscreen,false);</action>
+  <action name="enterFullScreenFallback">set(fullscreen,true);</action>
+  
+  <action name="resizeFullScreenEvent">delayedcall(0,updatescreen(););</action>
+
+<action name="setViewNormal">
+	stopSetViewTweens();
+	if(current_view_isflat === true,
+		setViewNonFlat(VFOV);
+	);
+	setViewNormalComplete();
+</action>
+
+<action name="setViewNormalComplete">
+	set(view.fisheyefovlink, 0.5);
+	set(view.fovmax, get(panoview.fovmax));
+	tween(view.architectural, 0.0, distance(1.0, 0.45));
+	tween(view.pannini, 0.0, distance(1.0, 0.45), easeOutQuad, if(panniniViewActivated,restoreViewFromPannini();););
+	tween(view.vlookat, get(panoview.v), distance(90, 0.45));
+	tween(view.fov, get(panoview.fov), distance(50, 0.45));
+	tween(view.fisheye, 0.0, distance(1.0, 0.45),
+		set(view.stereographic,false);
+	);
+</action>
+
+<krpano normalViewActivated="true" />
+<action name="stopSetViewTweens">
+	stoptween(view.fov);
+	stoptween(view.vlookat);
+	stoptween(view.fisheye);
+	stoptween(view.architectural);
+	stoptween(view.pannini);
+</action>
+<action name="setTourLanguage">
+  if (%1 == null,
+    showlog();
+    trace("CHANGE TOUR LANGUAGE : NO LANGUAGE SET");
+   ,
+    set(tour_language, %1);
+    js(eventTourChangeLanguage(get(tour_language)));
+    events.dispatch(changetourlanguage);
+  );
+</action>
+
+  <action name="hideTourControls">set(tour_displaycontrols, false);events.dispatch(hidetourcontrols);</action>
+  <action name="showTourControls">set(tour_displaycontrols, true); events.dispatch(showtourcontrols);</action>
+
+
+<action name="setViewLittlePlanet">
+	set(sceneisfull360, false);
+	if(scene[get(xml.scene)].full360,
+		sub(viewhfov, panoview.hmax, panoview.hmin);
+		if (viewhfov == 360,
+			sub(viewvfov, panoview.vmax, panoview.vmin);
+			if (viewvfov == 180,
+				set(sceneisfull360, true);
+			);
+		);
+	);
+	if (sceneisfull360 AND (device.webgl OR device.flash),
+		if(normalViewActivated,stopSetViewTweens(););
+		if(current_view_isflat === true,
+			setViewNonFlat(VFOV);
+		);
+		setViewLittlePlanetComplete();
+	);
+</action>
+
+<action name="setViewLittlePlanetComplete">
+	set(backtonormalfirst,false);
+	if(view.pannini GE 1.0, set(backtonormalfirst,true));
+	if(view.stereographic == false, set(backtonormalfirst,true));
+	if(backtonormalfirst, hideTooltip();tween(view.fisheye, 0.0 ,distance(1.0, 0.25), easeOutQuad, WAIT); );
+	set(view.stereographic, true);
+	set(view.fisheyefovlink, 1.5);
+	tween(view.architectural, 0.0, 0.25);
+	tween(view.vlookat, 90, distance(179, 1.50));
+	tween(view.pannini, 0.0, distance(1.0, 0.75), easeOutQuad, if(panniniViewActivated,restoreViewFromPannini();););
+	if(panoview.fovmax LE 150, set(view.fovmax, 150); , set(view.fovmax, get(panoview.fovmax)); );
+	tween(view.fisheye, 1.0, distance(1.0, 0.75));
+	tween(view.fov, 150, distance(179, 0.75));
+</action>
+
+  <action name="hideTourThumbnails">set(tour_displaythumbnails, false);events.dispatch(hidetourthumbnails);</action>
+  <action name="showTourThumbnails">set(tour_displaythumbnails, true); events.dispatch(showtourthumbnails);</action>
+
+
+</krpano>

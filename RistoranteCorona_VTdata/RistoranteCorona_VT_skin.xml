@@ -1,0 +1,4715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.19-pr16">
+
+    
+
+
+  <style name="IconDefaultPointSpotStyle"
+         url="%FIRSTXML%/spots/hotspot_neutral_sequence_user_defaultpoint0.png"
+         visible="false"
+         frame="0"
+         lastframe="18"
+         framewidth="68"
+         frameheight="68"
+         stopspotsequence="false"
+         crop="0|0|68|68"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconDefaultPointSpotStyle"
+         onout="onoutIconDefaultPointSpotStyle"
+
+
+         />
+  <action name="onhoverIconDefaultPointSpotStyle">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconDefaultPointSpotStyle">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+  
+  <style name="PolygonDefaultPolygonSpotStyle"
+           visible="false"
+           bordercolor="0x984b35"
+           fillcolor="0x7e817b"
+           borderwidth="1"
+           borderalpha="1"
+           fillalpha="0"
+           capture="false"
+           onhover="onhoverPolygonDefaultPolygonSpotStyle"
+           onover="onoverPolygonDefaultPolygonSpotStyle"
+           onout="onoutPolygonDefaultPolygonSpotStyle"
+           />
+  <action name="onhoverPolygonDefaultPolygonSpotStyle">
+    showTooltip('hotspot');
+  </action>
+
+  <action name="onoverPolygonDefaultPolygonSpotStyle">
+    set(bordercolor, 0x1e20c9);
+    set(fillcolor, 0x984b35);
+    set(borderalpha, 0.40000000000000002);
+    set(fillalpha, 0.59999999999999998);
+    set(borderwidth, 3);pauseautorotation(forcehotspot);
+
+  </action>
+
+  <action name="onoutPolygonDefaultPolygonSpotStyle">
+
+    set(bordercolor, 0x984b35);
+    set(fillcolor, 0x7e817b);
+    set(borderalpha, 1);
+    set(fillalpha, 0);
+
+    set(borderwidth, 1);
+    hideTooltip();resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+
+
+  <style name="IconDefaultPointSpotStyle1"
+         url="%FIRSTXML%/spots/hotspot_direction_user_defaultpoint1.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIconDefaultPointSpotStyle1"
+         onout="onoutIconDefaultPointSpotStyle1"
+
+
+         />
+  <action name="onhoverIconDefaultPointSpotStyle1">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconDefaultPointSpotStyle1">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+
+
+  <style name="IconApriGalleriaPERSONALE"
+         url="%FIRSTXML%/spots/hotspot_image_sequence_user_defaultpoint6.png"
+         visible="false"
+         frame="0"
+         lastframe="19"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         zoom="true"
+
+         alpha="0.8"
+         onloaded="startspotanimation(0.1);if(scene[get(xml.scene)].planar,if(zoom,set(zoom, false);););"
+         onhover="onhoverIconApriGalleriaPERSONALE"
+         onover="onoverIconApriGalleriaPERSONALE"
+         onout="onoutIconApriGalleriaPERSONALE"
+
+         height="50"
+         width="50"
+         />
+  <action name="onhoverIconApriGalleriaPERSONALE">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIconApriGalleriaPERSONALE">
+tween(scale, 1.2);
+tween(alpha, 1);
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIconApriGalleriaPERSONALE">
+    hideTooltip();
+    tween(scale, 1);
+    tween(alpha, 0.8);
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+  
+
+
+    
+
+
+  <style name="Iconskinplus"
+         url="%FIRSTXML%/spots/hotspot_neutral_sequence_user_defaultpoint11.png"
+         visible="false"
+         frame="0"
+         lastframe="17"
+         framewidth="70"
+         frameheight="70"
+         stopspotsequence="false"
+         crop="0|0|70|70"
+         edge="center"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIconskinplus"
+         onover="onoverIconskinplus"
+         onout="onoutIconskinplus"
+
+         height="50"
+         width="50"
+         />
+  <action name="onhoverIconskinplus">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIconskinplus">
+tween(scale, 1.2);
+
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIconskinplus">
+    hideTooltip();
+    tween(scale, 1);
+
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+
+
+  <style name="IconApriGalleriaCUCINA"
+         url="%FIRSTXML%/spots/hotspot_image_sequence_user_defaultpoint14.png"
+         visible="false"
+         frame="0"
+         lastframe="19"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         zoom="true"
+
+         alpha="0.8"
+         onloaded="startspotanimation(0.1);if(scene[get(xml.scene)].planar,if(zoom,set(zoom, false);););"
+         onhover="onhoverIconApriGalleriaCUCINA"
+         onover="onoverIconApriGalleriaCUCINA"
+         onout="onoutIconApriGalleriaCUCINA"
+
+         height="50"
+         width="50"
+         />
+  <action name="onhoverIconApriGalleriaCUCINA">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIconApriGalleriaCUCINA">
+tween(scale, 1.2);
+tween(alpha, 1);
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIconApriGalleriaCUCINA">
+    hideTooltip();
+    tween(scale, 1);
+    tween(alpha, 0.8);
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+
+
+  <style name="IconApriGalleriaQUADRO-CORRIDOIO"
+         url="%FIRSTXML%/spots/hotspot_image_sequence_user_defaultpoint111.png"
+         visible="false"
+         frame="0"
+         lastframe="19"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         zoom="true"
+
+         alpha="0.8"
+         onloaded="startspotanimation(0.1);if(scene[get(xml.scene)].planar,if(zoom,set(zoom, false);););"
+         onhover="onhoverIconApriGalleriaQUADRO-CORRIDOIO"
+         onover="onoverIconApriGalleriaQUADRO-CORRIDOIO"
+         onout="onoutIconApriGalleriaQUADRO-CORRIDOIO"
+
+         height="50"
+         width="50"
+         />
+  <action name="onhoverIconApriGalleriaQUADRO-CORRIDOIO">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIconApriGalleriaQUADRO-CORRIDOIO">
+tween(scale, 1.2);
+tween(alpha, 1);
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIconApriGalleriaQUADRO-CORRIDOIO">
+    hideTooltip();
+    tween(scale, 1);
+    tween(alpha, 0.8);
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+
+
+  <style name="IconApriGalleriaPIAZZAROMA"
+         url="%FIRSTXML%/spots/hotspot_image_sequence_user_defaultpoint15.png"
+         visible="false"
+         frame="0"
+         lastframe="19"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         zoom="true"
+
+         alpha="0.8"
+         onloaded="startspotanimation(0.1);if(scene[get(xml.scene)].planar,if(zoom,set(zoom, false);););"
+         onhover="onhoverIconApriGalleriaPIAZZAROMA"
+         onover="onoverIconApriGalleriaPIAZZAROMA"
+         onout="onoutIconApriGalleriaPIAZZAROMA"
+
+         height="50"
+         width="50"
+         />
+  <action name="onhoverIconApriGalleriaPIAZZAROMA">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIconApriGalleriaPIAZZAROMA">
+tween(scale, 1.2);
+tween(alpha, 1);
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIconApriGalleriaPIAZZAROMA">
+    hideTooltip();
+    tween(scale, 1);
+    tween(alpha, 0.8);
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+
+
+  <style name="IconApriGalleriaGELATO"
+         url="%FIRSTXML%/spots/hotspot_image_sequence_user_defaultpoint9.png"
+         visible="false"
+         frame="0"
+         lastframe="19"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         zoom="true"
+
+         alpha="0.8"
+         onloaded="startspotanimation(0.1);if(scene[get(xml.scene)].planar,if(zoom,set(zoom, false);););"
+         onhover="onhoverIconApriGalleriaGELATO"
+         onover="onoverIconApriGalleriaGELATO"
+         onout="onoutIconApriGalleriaGELATO"
+
+         height="50"
+         width="50"
+         />
+  <action name="onhoverIconApriGalleriaGELATO">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIconApriGalleriaGELATO">
+tween(scale, 1.2);
+tween(alpha, 1);
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIconApriGalleriaGELATO">
+    hideTooltip();
+    tween(scale, 1);
+    tween(alpha, 0.8);
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+
+
+  <style name="IconApriGalleriaVENDITA"
+         url="%FIRSTXML%/spots/hotspot_image_sequence_user_defaultpoint10.png"
+         visible="false"
+         frame="0"
+         lastframe="19"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         zoom="true"
+
+         alpha="0.8"
+         onloaded="startspotanimation(0.1);if(scene[get(xml.scene)].planar,if(zoom,set(zoom, false);););"
+         onhover="onhoverIconApriGalleriaVENDITA"
+         onover="onoverIconApriGalleriaVENDITA"
+         onout="onoutIconApriGalleriaVENDITA"
+
+         height="50"
+         width="50"
+         />
+  <action name="onhoverIconApriGalleriaVENDITA">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIconApriGalleriaVENDITA">
+tween(scale, 1.2);
+tween(alpha, 1);
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIconApriGalleriaVENDITA">
+    hideTooltip();
+    tween(scale, 1);
+    tween(alpha, 0.8);
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+
+
+  <style name="IconApriGalleriaPIATTI"
+         url="%FIRSTXML%/spots/hotspot_image_sequence_user_defaultpoint16.png"
+         visible="false"
+         frame="0"
+         lastframe="19"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         zoom="true"
+
+         alpha="0.8"
+         onloaded="startspotanimation(0.1);if(scene[get(xml.scene)].planar,if(zoom,set(zoom, false);););"
+         onhover="onhoverIconApriGalleriaPIATTI"
+         onover="onoverIconApriGalleriaPIATTI"
+         onout="onoutIconApriGalleriaPIATTI"
+
+         height="50"
+         width="50"
+         />
+  <action name="onhoverIconApriGalleriaPIATTI">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIconApriGalleriaPIATTI">
+tween(scale, 1.2);
+tween(alpha, 1);
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIconApriGalleriaPIATTI">
+    hideTooltip();
+    tween(scale, 1);
+    tween(alpha, 0.8);
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+    
+
+
+  <style name="IconApriGalleriaTARTUFO"
+         url="%FIRSTXML%/spots/hotspot_image_sequence_user_defaultpoint12.png"
+         visible="false"
+         frame="0"
+         lastframe="19"
+         framewidth="50"
+         frameheight="50"
+         stopspotsequence="false"
+         crop="0|0|50|50"
+         edge="center"
+         zoom="true"
+
+         alpha="0.8"
+         onloaded="startspotanimation(0.1);if(scene[get(xml.scene)].planar,if(zoom,set(zoom, false);););"
+         onhover="onhoverIconApriGalleriaTARTUFO"
+         onover="onoverIconApriGalleriaTARTUFO"
+         onout="onoutIconApriGalleriaTARTUFO"
+
+         height="50"
+         width="50"
+         />
+  <action name="onhoverIconApriGalleriaTARTUFO">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIconApriGalleriaTARTUFO">
+tween(scale, 1.2);
+tween(alpha, 1);
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIconApriGalleriaTARTUFO">
+    hideTooltip();
+    tween(scale, 1);
+    tween(alpha, 0.8);
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+
+<ptplugin name="gallery5" engine="kolorBox">
+	<settings>
+		<option name="position" value="center" type="string" />
+		<option name="margin_x" value="0" type="int" />
+		<option name="margin_y" value="0" type="int" />
+		<option name="external_padding" value="15" type="int" />
+		<option name="draggable_box" value="false" type="bool" />
+		<option name="slideshow_autoplay" value="false" type="bool" />
+		<option name="slideshow" value="5000" type="int" />
+		<option name="container_auto_size" value="true" type="bool" />
+		<option name="container_width" value="100" type="int" />
+		<option name="container_width_unit" value="percent" type="string" />
+		<option name="container_height" value="100" type="int" />
+		<option name="container_height_unit" value="percent" type="string" />
+		<option name="container_color" value="8e8e8e" type="string" />
+		<option name="container_alpha" value="0.7000076295109483" type="float" />
+		<option name="container_topleft_border_radius" value="15" type="int" />
+		<option name="container_topright_border_radius" value="15" type="int" />
+		<option name="container_bottomleft_border_radius" value="15" type="int" />
+		<option name="container_bottomright_border_radius" value="15" type="int" />
+		<option name="container_border_width" value="0" type="int" />
+		<option name="container_border_color" value="ffffff" type="string" />
+		<option name="container_border_alpha" value="1" type="float" />
+		<option name="overlay_displayed" value="true" type="bool" />
+		<option name="overlay_color" value="000000" type="string" />
+		<option name="overlay_alpha" value="0.50000762951094835" type="float" />
+
+		<option name="item_border_width" value="0" type="int" />
+		<option name="item_border_color" value="ffffff" type="string" />
+		<option name="item_border_alpha" value="1" type="float" />
+		
+		<option name="title_displayed" value="true" type="bool" />
+		<option name="title_position" value="top" type="string" />
+		<option name="title_font" value="Baskerville" type="string" />
+		<option name="title_size" value="14" type="int" />
+		<option name="title_weight" value="normal" type="string" />
+		<option name="title_style" value="normal" type="string" />
+		<option name="title_decoration" value="none" type="string" />
+		<option name="title_color" value="666666" type="string" />
+		
+		<option name="caption_displayed" value="false" type="bool" />
+		
+		<option name="play_displayed" value="true" type="bool" />
+		<option name="play_position" value="bottomleft" type="string" />
+		<option name="play_text" value="gallery5play_text" type="string" />
+
+
+
+
+		<option name="navigation_displayed" value="true" type="bool" />
+		<option name="navigation_position" value="bottom" type="string" />
+		<option name="counter_color" value="666666" type="string" />
+		<option name="navprev_text" value="gallery5navprev_text" type="string" />
+		<option name="navnext_text" value="gallery5navnext_text" type="string" />
+
+
+
+
+		<option name="navigation_arrows" value="true" type="bool" />
+
+
+
+
+		<option name="fullscreen_displayed" value="true" type="bool" />
+		<option name="fullscreen_position" value="topleft" type="string" />
+		<option name="fullscreen_text" value="gallery5fullscreen_text" type="string" />
+
+
+
+
+		<option name="close_displayed" value="true" type="bool" />
+		<option name="close_position" value="topright" type="string" />
+		<option name="close_text" value="gallery5close_text" type="string" />
+
+		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery5')" type="string" />
+		<option name="zorder" value="1" type="int" />
+		<option name="use_i18n" value="true" type="bool" />
+	</settings>
+	<internaldata>
+		<item name="item_1" title="gallery5picture_title0" caption="gallery5picture_caption0" value="RistoranteCorona_VTdata/graphics/gallery5/coronafoto-27.jpg"/>
+		<item name="item_2" title="gallery5picture_title1" caption="gallery5picture_caption1" value="RistoranteCorona_VTdata/graphics/gallery5/coronafoto-36.jpg"/>
+		<item name="item_3" title="gallery5picture_title2" caption="gallery5picture_caption2" value="RistoranteCorona_VTdata/graphics/gallery5/coronafoto-67.jpg"/>
+		<item name="item_4" title="gallery5picture_title3" caption="gallery5picture_caption3" value="RistoranteCorona_VTdata/graphics/gallery5/coronafoto-68.jpg"/>
+	</internaldata>
+</ptplugin>
+
+<action name="kolorBoxJsReady_gallery5">
+	set(ptplugin[gallery5].jsready, true);
+</action>
+
+<action name="showGallery_gallery5">
+	ifnot(ptplugin[gallery5].isOpen,
+		set(ptplugin[gallery5].isOpen, true);
+		set(ptplugin[gallery5].doNotDeleteMe, false);
+		set(gallery5_boxurl, %1);
+		pauseautorotation(forceplugin);
+
+		js(invokePluginFunction(gallery5, openKolorBox, %1));
+		events.dispatch(onremovedisplayedobject);
+	,
+		if(%1 !== null AND %1 != gallery5_boxurl,
+			closeKolorBox_gallery5();
+			delayedcall(0.3,showGallery_gallery5(%1););
+		);
+	);
+</action>
+
+<action name="toggleGallery_gallery5">
+	js(invokePluginFunction(gallery5, toggleKolorBox, %1));
+</action>
+
+
+<action name="closeKolorBox_gallery5">
+	js(invokePluginFunction(gallery5, closeKolorBox));
+</action>
+
+<action name="closeKolorBoxCallback_gallery5">
+	resumeautorotation(forceplugin);
+
+	set(ptplugin[gallery5].isOpen, false);
+</action>
+
+<action name="changeLanguage_gallery5">
+	if(ptplugin[gallery5].jsready,
+		js(invokePluginFunction(gallery5, changeLanguage));
+	,
+		delayedcall(delay_gallery5, 0.1, changeLanguage_gallery5(););
+	);
+</action>
+
+<events name="kolorBoxEvents_gallery5" 
+	keep="true"
+	changetourlanguage="changeLanguage_gallery5();"
+	/>
+
+
+<ptplugin name="gallery7" engine="kolorBox">
+	<settings>
+		<option name="position" value="center" type="string" />
+		<option name="margin_x" value="0" type="int" />
+		<option name="margin_y" value="0" type="int" />
+		<option name="external_padding" value="15" type="int" />
+		<option name="draggable_box" value="false" type="bool" />
+		<option name="slideshow_autoplay" value="false" type="bool" />
+		<option name="slideshow" value="5000" type="int" />
+		<option name="container_auto_size" value="true" type="bool" />
+		<option name="container_width" value="100" type="int" />
+		<option name="container_width_unit" value="percent" type="string" />
+		<option name="container_height" value="100" type="int" />
+		<option name="container_height_unit" value="percent" type="string" />
+		<option name="container_color" value="8e8e8e" type="string" />
+		<option name="container_alpha" value="0.7000076295109483" type="float" />
+		<option name="container_topleft_border_radius" value="15" type="int" />
+		<option name="container_topright_border_radius" value="15" type="int" />
+		<option name="container_bottomleft_border_radius" value="15" type="int" />
+		<option name="container_bottomright_border_radius" value="15" type="int" />
+		<option name="container_border_width" value="0" type="int" />
+		<option name="container_border_color" value="ffffff" type="string" />
+		<option name="container_border_alpha" value="1" type="float" />
+		<option name="overlay_displayed" value="true" type="bool" />
+		<option name="overlay_color" value="000000" type="string" />
+		<option name="overlay_alpha" value="0.50000762951094835" type="float" />
+
+		<option name="item_border_width" value="0" type="int" />
+		<option name="item_border_color" value="ffffff" type="string" />
+		<option name="item_border_alpha" value="1" type="float" />
+		
+		<option name="title_displayed" value="true" type="bool" />
+		<option name="title_position" value="top" type="string" />
+		<option name="title_font" value="Baskerville" type="string" />
+		<option name="title_size" value="14" type="int" />
+		<option name="title_weight" value="normal" type="string" />
+		<option name="title_style" value="normal" type="string" />
+		<option name="title_decoration" value="none" type="string" />
+		<option name="title_color" value="666666" type="string" />
+		
+		<option name="caption_displayed" value="false" type="bool" />
+		
+		<option name="play_displayed" value="true" type="bool" />
+		<option name="play_position" value="bottomleft" type="string" />
+		<option name="play_text" value="gallery7play_text" type="string" />
+
+
+
+
+		<option name="navigation_displayed" value="true" type="bool" />
+		<option name="navigation_position" value="bottom" type="string" />
+		<option name="counter_color" value="666666" type="string" />
+		<option name="navprev_text" value="gallery7navprev_text" type="string" />
+		<option name="navnext_text" value="gallery7navnext_text" type="string" />
+
+
+
+
+		<option name="navigation_arrows" value="true" type="bool" />
+
+
+
+
+		<option name="fullscreen_displayed" value="true" type="bool" />
+		<option name="fullscreen_position" value="topleft" type="string" />
+		<option name="fullscreen_text" value="gallery7fullscreen_text" type="string" />
+
+
+
+
+		<option name="close_displayed" value="true" type="bool" />
+		<option name="close_position" value="topright" type="string" />
+		<option name="close_text" value="gallery7close_text" type="string" />
+
+		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery7')" type="string" />
+		<option name="zorder" value="2" type="int" />
+		<option name="use_i18n" value="true" type="bool" />
+	</settings>
+	<internaldata>
+		<item name="item_1" title="gallery7picture_title0" caption="gallery7picture_caption0" value="RistoranteCorona_VTdata/graphics/gallery7/coronafoto-41.jpg"/>
+		<item name="item_2" title="gallery7picture_title1" caption="gallery7picture_caption1" value="RistoranteCorona_VTdata/graphics/gallery7/coronafoto-43.jpg"/>
+		<item name="item_3" title="gallery7picture_title2" caption="gallery7picture_caption2" value="RistoranteCorona_VTdata/graphics/gallery7/coronafoto-44.jpg"/>
+		<item name="item_4" title="gallery7picture_title3" caption="gallery7picture_caption3" value="RistoranteCorona_VTdata/graphics/gallery7/coronafoto-45.jpg"/>
+		<item name="item_5" title="gallery7picture_title4" caption="gallery7picture_caption4" value="RistoranteCorona_VTdata/graphics/gallery7/coronafoto-46.jpg"/>
+		<item name="item_6" title="gallery7picture_title5" caption="gallery7picture_caption5" value="RistoranteCorona_VTdata/graphics/gallery7/coronafoto-56.jpg"/>
+		<item name="item_7" title="gallery7picture_title6" caption="gallery7picture_caption6" value="RistoranteCorona_VTdata/graphics/gallery7/coronafoto-62.jpg"/>
+	</internaldata>
+</ptplugin>
+
+<action name="kolorBoxJsReady_gallery7">
+	set(ptplugin[gallery7].jsready, true);
+</action>
+
+<action name="showGallery_gallery7">
+	ifnot(ptplugin[gallery7].isOpen,
+		set(ptplugin[gallery7].isOpen, true);
+		set(ptplugin[gallery7].doNotDeleteMe, false);
+		set(gallery7_boxurl, %1);
+		pauseautorotation(forceplugin);
+
+		js(invokePluginFunction(gallery7, openKolorBox, %1));
+		events.dispatch(onremovedisplayedobject);
+	,
+		if(%1 !== null AND %1 != gallery7_boxurl,
+			closeKolorBox_gallery7();
+			delayedcall(0.3,showGallery_gallery7(%1););
+		);
+	);
+</action>
+
+<action name="toggleGallery_gallery7">
+	js(invokePluginFunction(gallery7, toggleKolorBox, %1));
+</action>
+
+
+<action name="closeKolorBox_gallery7">
+	js(invokePluginFunction(gallery7, closeKolorBox));
+</action>
+
+<action name="closeKolorBoxCallback_gallery7">
+	resumeautorotation(forceplugin);
+
+	set(ptplugin[gallery7].isOpen, false);
+</action>
+
+<action name="changeLanguage_gallery7">
+	if(ptplugin[gallery7].jsready,
+		js(invokePluginFunction(gallery7, changeLanguage));
+	,
+		delayedcall(delay_gallery7, 0.1, changeLanguage_gallery7(););
+	);
+</action>
+
+<events name="kolorBoxEvents_gallery7" 
+	keep="true"
+	changetourlanguage="changeLanguage_gallery7();"
+	/>
+
+
+<ptplugin name="gallery6" engine="kolorBox">
+	<settings>
+		<option name="position" value="center" type="string" />
+		<option name="margin_x" value="0" type="int" />
+		<option name="margin_y" value="0" type="int" />
+		<option name="external_padding" value="15" type="int" />
+		<option name="draggable_box" value="false" type="bool" />
+		<option name="slideshow_autoplay" value="false" type="bool" />
+		<option name="slideshow" value="5000" type="int" />
+		<option name="container_auto_size" value="true" type="bool" />
+		<option name="container_width" value="100" type="int" />
+		<option name="container_width_unit" value="percent" type="string" />
+		<option name="container_height" value="100" type="int" />
+		<option name="container_height_unit" value="percent" type="string" />
+		<option name="container_color" value="8e8e8e" type="string" />
+		<option name="container_alpha" value="0.7000076295109483" type="float" />
+		<option name="container_topleft_border_radius" value="15" type="int" />
+		<option name="container_topright_border_radius" value="15" type="int" />
+		<option name="container_bottomleft_border_radius" value="15" type="int" />
+		<option name="container_bottomright_border_radius" value="15" type="int" />
+		<option name="container_border_width" value="0" type="int" />
+		<option name="container_border_color" value="ffffff" type="string" />
+		<option name="container_border_alpha" value="1" type="float" />
+		<option name="overlay_displayed" value="true" type="bool" />
+		<option name="overlay_color" value="000000" type="string" />
+		<option name="overlay_alpha" value="0.50000762951094835" type="float" />
+
+		<option name="item_border_width" value="0" type="int" />
+		<option name="item_border_color" value="ffffff" type="string" />
+		<option name="item_border_alpha" value="1" type="float" />
+		
+		<option name="title_displayed" value="true" type="bool" />
+		<option name="title_position" value="top" type="string" />
+		<option name="title_font" value="Baskerville" type="string" />
+		<option name="title_size" value="14" type="int" />
+		<option name="title_weight" value="normal" type="string" />
+		<option name="title_style" value="normal" type="string" />
+		<option name="title_decoration" value="none" type="string" />
+		<option name="title_color" value="666666" type="string" />
+		
+		<option name="caption_displayed" value="false" type="bool" />
+		
+		<option name="play_displayed" value="true" type="bool" />
+		<option name="play_position" value="bottomleft" type="string" />
+		<option name="play_text" value="gallery6play_text" type="string" />
+
+
+
+
+		<option name="navigation_displayed" value="true" type="bool" />
+		<option name="navigation_position" value="bottom" type="string" />
+		<option name="counter_color" value="666666" type="string" />
+		<option name="navprev_text" value="gallery6navprev_text" type="string" />
+		<option name="navnext_text" value="gallery6navnext_text" type="string" />
+
+
+
+
+		<option name="navigation_arrows" value="true" type="bool" />
+
+
+
+
+		<option name="fullscreen_displayed" value="true" type="bool" />
+		<option name="fullscreen_position" value="topleft" type="string" />
+		<option name="fullscreen_text" value="gallery6fullscreen_text" type="string" />
+
+
+
+
+		<option name="close_displayed" value="true" type="bool" />
+		<option name="close_position" value="topright" type="string" />
+		<option name="close_text" value="gallery6close_text" type="string" />
+
+		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery6')" type="string" />
+		<option name="zorder" value="3" type="int" />
+		<option name="use_i18n" value="true" type="bool" />
+	</settings>
+	<internaldata>
+		<item name="item_1" title="gallery6picture_title0" caption="gallery6picture_caption0" value="RistoranteCorona_VTdata/graphics/gallery6/coronafoto-88.jpg"/>
+		<item name="item_2" title="gallery6picture_title1" caption="gallery6picture_caption1" value="RistoranteCorona_VTdata/graphics/gallery6/coronafoto-89.jpg"/>
+	</internaldata>
+</ptplugin>
+
+<action name="kolorBoxJsReady_gallery6">
+	set(ptplugin[gallery6].jsready, true);
+</action>
+
+<action name="showGallery_gallery6">
+	ifnot(ptplugin[gallery6].isOpen,
+		set(ptplugin[gallery6].isOpen, true);
+		set(ptplugin[gallery6].doNotDeleteMe, false);
+		set(gallery6_boxurl, %1);
+		pauseautorotation(forceplugin);
+
+		js(invokePluginFunction(gallery6, openKolorBox, %1));
+		events.dispatch(onremovedisplayedobject);
+	,
+		if(%1 !== null AND %1 != gallery6_boxurl,
+			closeKolorBox_gallery6();
+			delayedcall(0.3,showGallery_gallery6(%1););
+		);
+	);
+</action>
+
+<action name="toggleGallery_gallery6">
+	js(invokePluginFunction(gallery6, toggleKolorBox, %1));
+</action>
+
+
+<action name="closeKolorBox_gallery6">
+	js(invokePluginFunction(gallery6, closeKolorBox));
+</action>
+
+<action name="closeKolorBoxCallback_gallery6">
+	resumeautorotation(forceplugin);
+
+	set(ptplugin[gallery6].isOpen, false);
+</action>
+
+<action name="changeLanguage_gallery6">
+	if(ptplugin[gallery6].jsready,
+		js(invokePluginFunction(gallery6, changeLanguage));
+	,
+		delayedcall(delay_gallery6, 0.1, changeLanguage_gallery6(););
+	);
+</action>
+
+<events name="kolorBoxEvents_gallery6" 
+	keep="true"
+	changetourlanguage="changeLanguage_gallery6();"
+	/>
+
+
+<ptplugin name="gallery4" engine="kolorBox">
+	<settings>
+		<option name="position" value="center" type="string" />
+		<option name="margin_x" value="0" type="int" />
+		<option name="margin_y" value="0" type="int" />
+		<option name="external_padding" value="15" type="int" />
+		<option name="draggable_box" value="false" type="bool" />
+		<option name="slideshow_autoplay" value="false" type="bool" />
+		<option name="slideshow" value="5000" type="int" />
+		<option name="container_auto_size" value="true" type="bool" />
+		<option name="container_width" value="100" type="int" />
+		<option name="container_width_unit" value="percent" type="string" />
+		<option name="container_height" value="100" type="int" />
+		<option name="container_height_unit" value="percent" type="string" />
+		<option name="container_color" value="8e8e8e" type="string" />
+		<option name="container_alpha" value="0.7000076295109483" type="float" />
+		<option name="container_topleft_border_radius" value="15" type="int" />
+		<option name="container_topright_border_radius" value="15" type="int" />
+		<option name="container_bottomleft_border_radius" value="15" type="int" />
+		<option name="container_bottomright_border_radius" value="15" type="int" />
+		<option name="container_border_width" value="0" type="int" />
+		<option name="container_border_color" value="ffffff" type="string" />
+		<option name="container_border_alpha" value="1" type="float" />
+		<option name="overlay_displayed" value="true" type="bool" />
+		<option name="overlay_color" value="000000" type="string" />
+		<option name="overlay_alpha" value="0.50000762951094835" type="float" />
+
+		<option name="item_border_width" value="0" type="int" />
+		<option name="item_border_color" value="ffffff" type="string" />
+		<option name="item_border_alpha" value="1" type="float" />
+		
+		<option name="title_displayed" value="true" type="bool" />
+		<option name="title_position" value="top" type="string" />
+		<option name="title_font" value="Baskerville" type="string" />
+		<option name="title_size" value="14" type="int" />
+		<option name="title_weight" value="normal" type="string" />
+		<option name="title_style" value="normal" type="string" />
+		<option name="title_decoration" value="none" type="string" />
+		<option name="title_color" value="666666" type="string" />
+		
+		<option name="caption_displayed" value="false" type="bool" />
+		
+		<option name="play_displayed" value="true" type="bool" />
+		<option name="play_position" value="bottomleft" type="string" />
+		<option name="play_text" value="gallery4play_text" type="string" />
+
+
+
+
+		<option name="navigation_displayed" value="true" type="bool" />
+		<option name="navigation_position" value="bottom" type="string" />
+		<option name="counter_color" value="666666" type="string" />
+		<option name="navprev_text" value="gallery4navprev_text" type="string" />
+		<option name="navnext_text" value="gallery4navnext_text" type="string" />
+
+
+
+
+		<option name="navigation_arrows" value="true" type="bool" />
+
+
+
+
+		<option name="fullscreen_displayed" value="true" type="bool" />
+		<option name="fullscreen_position" value="topleft" type="string" />
+		<option name="fullscreen_text" value="gallery4fullscreen_text" type="string" />
+
+
+
+
+		<option name="close_displayed" value="true" type="bool" />
+		<option name="close_position" value="topright" type="string" />
+		<option name="close_text" value="gallery4close_text" type="string" />
+
+		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery4')" type="string" />
+		<option name="zorder" value="4" type="int" />
+		<option name="use_i18n" value="true" type="bool" />
+	</settings>
+	<internaldata>
+		<item name="item_1" title="gallery4picture_title0" caption="gallery4picture_caption0" value="RistoranteCorona_VTdata/graphics/gallery4/coronafoto-3.jpg"/>
+		<item name="item_2" title="gallery4picture_title1" caption="gallery4picture_caption1" value="RistoranteCorona_VTdata/graphics/gallery4/coronafoto-6.jpg"/>
+		<item name="item_3" title="gallery4picture_title2" caption="gallery4picture_caption2" value="RistoranteCorona_VTdata/graphics/gallery4/coronafoto-51.jpg"/>
+	</internaldata>
+</ptplugin>
+
+<action name="kolorBoxJsReady_gallery4">
+	set(ptplugin[gallery4].jsready, true);
+</action>
+
+<action name="showGallery_gallery4">
+	ifnot(ptplugin[gallery4].isOpen,
+		set(ptplugin[gallery4].isOpen, true);
+		set(ptplugin[gallery4].doNotDeleteMe, false);
+		set(gallery4_boxurl, %1);
+		pauseautorotation(forceplugin);
+
+		js(invokePluginFunction(gallery4, openKolorBox, %1));
+		events.dispatch(onremovedisplayedobject);
+	,
+		if(%1 !== null AND %1 != gallery4_boxurl,
+			closeKolorBox_gallery4();
+			delayedcall(0.3,showGallery_gallery4(%1););
+		);
+	);
+</action>
+
+<action name="toggleGallery_gallery4">
+	js(invokePluginFunction(gallery4, toggleKolorBox, %1));
+</action>
+
+
+<action name="closeKolorBox_gallery4">
+	js(invokePluginFunction(gallery4, closeKolorBox));
+</action>
+
+<action name="closeKolorBoxCallback_gallery4">
+	resumeautorotation(forceplugin);
+
+	set(ptplugin[gallery4].isOpen, false);
+</action>
+
+<action name="changeLanguage_gallery4">
+	if(ptplugin[gallery4].jsready,
+		js(invokePluginFunction(gallery4, changeLanguage));
+	,
+		delayedcall(delay_gallery4, 0.1, changeLanguage_gallery4(););
+	);
+</action>
+
+<events name="kolorBoxEvents_gallery4" 
+	keep="true"
+	changetourlanguage="changeLanguage_gallery4();"
+	/>
+
+
+<ptplugin name="gallery3" engine="kolorBox">
+	<settings>
+		<option name="position" value="center" type="string" />
+		<option name="margin_x" value="0" type="int" />
+		<option name="margin_y" value="0" type="int" />
+		<option name="external_padding" value="15" type="int" />
+		<option name="draggable_box" value="false" type="bool" />
+		<option name="slideshow_autoplay" value="false" type="bool" />
+		<option name="slideshow" value="5000" type="int" />
+		<option name="container_auto_size" value="true" type="bool" />
+		<option name="container_width" value="100" type="int" />
+		<option name="container_width_unit" value="percent" type="string" />
+		<option name="container_height" value="100" type="int" />
+		<option name="container_height_unit" value="percent" type="string" />
+		<option name="container_color" value="8e8e8e" type="string" />
+		<option name="container_alpha" value="0.7000076295109483" type="float" />
+		<option name="container_topleft_border_radius" value="15" type="int" />
+		<option name="container_topright_border_radius" value="15" type="int" />
+		<option name="container_bottomleft_border_radius" value="15" type="int" />
+		<option name="container_bottomright_border_radius" value="15" type="int" />
+		<option name="container_border_width" value="0" type="int" />
+		<option name="container_border_color" value="ffffff" type="string" />
+		<option name="container_border_alpha" value="1" type="float" />
+		<option name="overlay_displayed" value="true" type="bool" />
+		<option name="overlay_color" value="000000" type="string" />
+		<option name="overlay_alpha" value="0.50000762951094835" type="float" />
+
+		<option name="item_border_width" value="0" type="int" />
+		<option name="item_border_color" value="ffffff" type="string" />
+		<option name="item_border_alpha" value="1" type="float" />
+		
+		<option name="title_displayed" value="true" type="bool" />
+		<option name="title_position" value="top" type="string" />
+		<option name="title_font" value="Baskerville" type="string" />
+		<option name="title_size" value="14" type="int" />
+		<option name="title_weight" value="normal" type="string" />
+		<option name="title_style" value="normal" type="string" />
+		<option name="title_decoration" value="none" type="string" />
+		<option name="title_color" value="666666" type="string" />
+		
+		<option name="caption_displayed" value="false" type="bool" />
+		
+		<option name="play_displayed" value="true" type="bool" />
+		<option name="play_position" value="bottomleft" type="string" />
+		<option name="play_text" value="gallery3play_text" type="string" />
+
+
+
+
+		<option name="navigation_displayed" value="true" type="bool" />
+		<option name="navigation_position" value="bottom" type="string" />
+		<option name="counter_color" value="666666" type="string" />
+		<option name="navprev_text" value="gallery3navprev_text" type="string" />
+		<option name="navnext_text" value="gallery3navnext_text" type="string" />
+
+
+
+
+		<option name="navigation_arrows" value="true" type="bool" />
+
+
+
+
+		<option name="fullscreen_displayed" value="true" type="bool" />
+		<option name="fullscreen_position" value="topleft" type="string" />
+		<option name="fullscreen_text" value="gallery3fullscreen_text" type="string" />
+
+
+
+
+		<option name="close_displayed" value="true" type="bool" />
+		<option name="close_position" value="topright" type="string" />
+		<option name="close_text" value="gallery3close_text" type="string" />
+
+		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery3')" type="string" />
+		<option name="zorder" value="5" type="int" />
+		<option name="use_i18n" value="true" type="bool" />
+	</settings>
+	<internaldata>
+		<item name="item_1" title="gallerypicture_title3" caption="gallerypicture_caption3" value="RistoranteCorona_VTdata/graphics/gallery3/coronafoto-7.jpg"/>
+		<item name="item_2" title="gallery3picture_title1" caption="gallery3picture_caption1" value="RistoranteCorona_VTdata/graphics/gallery3/coronafoto-8.jpg"/>
+		<item name="item_3" title="gallery3picture_title2" caption="gallery3picture_caption2" value="RistoranteCorona_VTdata/graphics/gallery3/coronafoto-83.jpg"/>
+		<item name="item_4" title="gallery3picture_title3" caption="gallery3picture_caption3" value="RistoranteCorona_VTdata/graphics/gallery3/coronafoto-85.jpg"/>
+		<item name="item_5" title="gallery3picture_title4" caption="gallery3picture_caption4" value="RistoranteCorona_VTdata/graphics/gallery3/coronafoto-90.jpg"/>
+		<item name="item_6" title="gallery3picture_title5" caption="gallery3picture_caption5" value="RistoranteCorona_VTdata/graphics/gallery3/coronafoto-91.jpg"/>
+		<item name="item_7" title="gallery3picture_title6" caption="gallery3picture_caption6" value="RistoranteCorona_VTdata/graphics/gallery3/coronafoto-92.jpg"/>
+		<item name="item_8" title="gallery3picture_title7" caption="gallery3picture_caption7" value="RistoranteCorona_VTdata/graphics/gallery3/coronafoto-93.jpg"/>
+		<item name="item_9" title="gallery3picture_title8" caption="gallery3picture_caption8" value="RistoranteCorona_VTdata/graphics/gallery3/coronafoto-94.jpg"/>
+		<item name="item_10" title="gallery3picture_title9" caption="gallery3picture_caption9" value="RistoranteCorona_VTdata/graphics/gallery3/coronafoto-95.jpg"/>
+	</internaldata>
+</ptplugin>
+
+<action name="kolorBoxJsReady_gallery3">
+	set(ptplugin[gallery3].jsready, true);
+</action>
+
+<action name="showGallery_gallery3">
+	ifnot(ptplugin[gallery3].isOpen,
+		set(ptplugin[gallery3].isOpen, true);
+		set(ptplugin[gallery3].doNotDeleteMe, false);
+		set(gallery3_boxurl, %1);
+		pauseautorotation(forceplugin);
+
+		js(invokePluginFunction(gallery3, openKolorBox, %1));
+		events.dispatch(onremovedisplayedobject);
+	,
+		if(%1 !== null AND %1 != gallery3_boxurl,
+			closeKolorBox_gallery3();
+			delayedcall(0.3,showGallery_gallery3(%1););
+		);
+	);
+</action>
+
+<action name="toggleGallery_gallery3">
+	js(invokePluginFunction(gallery3, toggleKolorBox, %1));
+</action>
+
+
+<action name="closeKolorBox_gallery3">
+	js(invokePluginFunction(gallery3, closeKolorBox));
+</action>
+
+<action name="closeKolorBoxCallback_gallery3">
+	resumeautorotation(forceplugin);
+
+	set(ptplugin[gallery3].isOpen, false);
+</action>
+
+<action name="changeLanguage_gallery3">
+	if(ptplugin[gallery3].jsready,
+		js(invokePluginFunction(gallery3, changeLanguage));
+	,
+		delayedcall(delay_gallery3, 0.1, changeLanguage_gallery3(););
+	);
+</action>
+
+<events name="kolorBoxEvents_gallery3" 
+	keep="true"
+	changetourlanguage="changeLanguage_gallery3();"
+	/>
+
+
+<ptplugin name="gallery2" engine="kolorBox">
+	<settings>
+		<option name="position" value="center" type="string" />
+		<option name="margin_x" value="0" type="int" />
+		<option name="margin_y" value="0" type="int" />
+		<option name="external_padding" value="15" type="int" />
+		<option name="draggable_box" value="false" type="bool" />
+		<option name="slideshow_autoplay" value="false" type="bool" />
+		<option name="slideshow" value="5000" type="int" />
+		<option name="container_auto_size" value="true" type="bool" />
+		<option name="container_width" value="100" type="int" />
+		<option name="container_width_unit" value="percent" type="string" />
+		<option name="container_height" value="100" type="int" />
+		<option name="container_height_unit" value="percent" type="string" />
+		<option name="container_color" value="8e8e8e" type="string" />
+		<option name="container_alpha" value="0.7000076295109483" type="float" />
+		<option name="container_topleft_border_radius" value="15" type="int" />
+		<option name="container_topright_border_radius" value="15" type="int" />
+		<option name="container_bottomleft_border_radius" value="15" type="int" />
+		<option name="container_bottomright_border_radius" value="15" type="int" />
+		<option name="container_border_width" value="0" type="int" />
+		<option name="container_border_color" value="ffffff" type="string" />
+		<option name="container_border_alpha" value="1" type="float" />
+		<option name="overlay_displayed" value="true" type="bool" />
+		<option name="overlay_color" value="000000" type="string" />
+		<option name="overlay_alpha" value="0.50000762951094835" type="float" />
+
+		<option name="item_border_width" value="0" type="int" />
+		<option name="item_border_color" value="ffffff" type="string" />
+		<option name="item_border_alpha" value="1" type="float" />
+		
+		<option name="title_displayed" value="true" type="bool" />
+		<option name="title_position" value="top" type="string" />
+		<option name="title_font" value="Baskerville" type="string" />
+		<option name="title_size" value="14" type="int" />
+		<option name="title_weight" value="normal" type="string" />
+		<option name="title_style" value="normal" type="string" />
+		<option name="title_decoration" value="none" type="string" />
+		<option name="title_color" value="666666" type="string" />
+		
+		<option name="caption_displayed" value="false" type="bool" />
+		
+		<option name="play_displayed" value="true" type="bool" />
+		<option name="play_position" value="bottomleft" type="string" />
+		<option name="play_text" value="gallery2play_text" type="string" />
+
+
+
+
+		<option name="navigation_displayed" value="true" type="bool" />
+		<option name="navigation_position" value="bottom" type="string" />
+		<option name="counter_color" value="666666" type="string" />
+		<option name="navprev_text" value="gallery2navprev_text" type="string" />
+		<option name="navnext_text" value="gallery2navnext_text" type="string" />
+
+
+
+
+		<option name="navigation_arrows" value="true" type="bool" />
+
+
+
+
+		<option name="fullscreen_displayed" value="true" type="bool" />
+		<option name="fullscreen_position" value="topleft" type="string" />
+		<option name="fullscreen_text" value="gallery2fullscreen_text" type="string" />
+
+
+
+
+		<option name="close_displayed" value="true" type="bool" />
+		<option name="close_position" value="topright" type="string" />
+		<option name="close_text" value="gallery2close_text" type="string" />
+
+		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery2')" type="string" />
+		<option name="zorder" value="6" type="int" />
+		<option name="use_i18n" value="true" type="bool" />
+	</settings>
+	<internaldata>
+		<item name="item_1" title="gallery2picture_title1" caption="gallery2picture_caption1" value="RistoranteCorona_VTdata/graphics/gallery2/coronafoto-5.jpg"/>
+		<item name="item_2" title="gallery2picture_title3" caption="gallery2picture_caption3" value="RistoranteCorona_VTdata/graphics/gallery2/coronafoto-12.jpg"/>
+		<item name="item_3" title="gallery2picture_title4" caption="gallery2picture_caption4" value="RistoranteCorona_VTdata/graphics/gallery2/coronafoto-17.jpg"/>
+		<item name="item_4" title="gallery2picture_title5" caption="gallery2picture_caption5" value="RistoranteCorona_VTdata/graphics/gallery2/coronafoto-22.jpg"/>
+		<item name="item_5" title="gallery2picture_title6" caption="gallery2picture_caption6" value="RistoranteCorona_VTdata/graphics/gallery2/coronafoto-24.jpg"/>
+		<item name="item_6" title="gallery2picture_title7" caption="gallery2picture_caption7" value="RistoranteCorona_VTdata/graphics/gallery2/coronafoto-28.jpg"/>
+		<item name="item_7" title="gallery2picture_title8" caption="gallery2picture_caption8" value="RistoranteCorona_VTdata/graphics/gallery2/coronafoto-30.jpg"/>
+		<item name="item_8" title="gallery2picture_title9" caption="gallery2picture_caption9" value="RistoranteCorona_VTdata/graphics/gallery2/coronafoto-32.jpg"/>
+		<item name="item_9" title="gallery2picture_title10" caption="gallery2picture_caption10" value="RistoranteCorona_VTdata/graphics/gallery2/coronafoto-38.jpg"/>
+		<item name="item_10" title="gallery2picture_title11" caption="gallery2picture_caption11" value="RistoranteCorona_VTdata/graphics/gallery2/coronafoto-42.jpg"/>
+		<item name="item_11" title="gallery2picture_title12" caption="gallery2picture_caption12" value="RistoranteCorona_VTdata/graphics/gallery2/coronafoto-48.jpg"/>
+		<item name="item_12" title="gallery2picture_title13" caption="gallery2picture_caption13" value="RistoranteCorona_VTdata/graphics/gallery2/coronafoto-49.jpg"/>
+		<item name="item_13" title="gallery2picture_title15" caption="gallery2picture_caption15" value="RistoranteCorona_VTdata/graphics/gallery2/coronafoto-53.jpg"/>
+		<item name="item_14" title="gallery2picture_title16" caption="gallery2picture_caption16" value="RistoranteCorona_VTdata/graphics/gallery2/coronafoto-54.jpg"/>
+		<item name="item_15" title="gallery2picture_title17" caption="gallery2picture_caption17" value="RistoranteCorona_VTdata/graphics/gallery2/coronafoto-61.jpg"/>
+		<item name="item_16" title="gallery2picture_title18" caption="gallery2picture_caption18" value="RistoranteCorona_VTdata/graphics/gallery2/coronafoto-65.jpg"/>
+		<item name="item_17" title="gallery2picture_title19" caption="gallery2picture_caption19" value="RistoranteCorona_VTdata/graphics/gallery2/coronafoto-71.jpg"/>
+		<item name="item_18" title="gallery2picture_title20" caption="gallery2picture_caption20" value="RistoranteCorona_VTdata/graphics/gallery2/coronafoto-73.jpg"/>
+		<item name="item_19" title="gallery2picture_title21" caption="gallery2picture_caption21" value="RistoranteCorona_VTdata/graphics/gallery2/coronafoto-77.jpg"/>
+		<item name="item_20" title="gallery2picture_title22" caption="gallery2picture_caption22" value="RistoranteCorona_VTdata/graphics/gallery2/coronafoto-78.jpg"/>
+		<item name="item_21" title="gallery2picture_title23" caption="gallery2picture_caption23" value="RistoranteCorona_VTdata/graphics/gallery2/coronafoto-79.jpg"/>
+		<item name="item_22" title="gallery2picture_title24" caption="gallery2picture_caption24" value="RistoranteCorona_VTdata/graphics/gallery2/coronafoto-80.jpg"/>
+		<item name="item_23" title="gallery2picture_title26" caption="gallery2picture_caption26" value="RistoranteCorona_VTdata/graphics/gallery2/coronafoto-100.jpg"/>
+	</internaldata>
+</ptplugin>
+
+<action name="kolorBoxJsReady_gallery2">
+	set(ptplugin[gallery2].jsready, true);
+</action>
+
+<action name="showGallery_gallery2">
+	ifnot(ptplugin[gallery2].isOpen,
+		set(ptplugin[gallery2].isOpen, true);
+		set(ptplugin[gallery2].doNotDeleteMe, false);
+		set(gallery2_boxurl, %1);
+		pauseautorotation(forceplugin);
+
+		js(invokePluginFunction(gallery2, openKolorBox, %1));
+		events.dispatch(onremovedisplayedobject);
+	,
+		if(%1 !== null AND %1 != gallery2_boxurl,
+			closeKolorBox_gallery2();
+			delayedcall(0.3,showGallery_gallery2(%1););
+		);
+	);
+</action>
+
+<action name="toggleGallery_gallery2">
+	js(invokePluginFunction(gallery2, toggleKolorBox, %1));
+</action>
+
+
+<action name="closeKolorBox_gallery2">
+	js(invokePluginFunction(gallery2, closeKolorBox));
+</action>
+
+<action name="closeKolorBoxCallback_gallery2">
+	resumeautorotation(forceplugin);
+
+	set(ptplugin[gallery2].isOpen, false);
+</action>
+
+<action name="changeLanguage_gallery2">
+	if(ptplugin[gallery2].jsready,
+		js(invokePluginFunction(gallery2, changeLanguage));
+	,
+		delayedcall(delay_gallery2, 0.1, changeLanguage_gallery2(););
+	);
+</action>
+
+<events name="kolorBoxEvents_gallery2" 
+	keep="true"
+	changetourlanguage="changeLanguage_gallery2();"
+	/>
+
+
+<ptplugin name="gallery1" engine="kolorBox">
+	<settings>
+		<option name="position" value="center" type="string" />
+		<option name="margin_x" value="0" type="int" />
+		<option name="margin_y" value="0" type="int" />
+		<option name="external_padding" value="15" type="int" />
+		<option name="draggable_box" value="false" type="bool" />
+		<option name="slideshow_autoplay" value="false" type="bool" />
+		<option name="slideshow" value="5000" type="int" />
+		<option name="container_auto_size" value="true" type="bool" />
+		<option name="container_width" value="100" type="int" />
+		<option name="container_width_unit" value="percent" type="string" />
+		<option name="container_height" value="100" type="int" />
+		<option name="container_height_unit" value="percent" type="string" />
+		<option name="container_color" value="6d6d6d" type="string" />
+		<option name="container_alpha" value="0.7000076295109483" type="float" />
+		<option name="container_topleft_border_radius" value="20" type="int" />
+		<option name="container_topright_border_radius" value="20" type="int" />
+		<option name="container_bottomleft_border_radius" value="20" type="int" />
+		<option name="container_bottomright_border_radius" value="20" type="int" />
+		<option name="container_border_width" value="0" type="int" />
+		<option name="container_border_color" value="ffffff" type="string" />
+		<option name="container_border_alpha" value="1" type="float" />
+		<option name="overlay_displayed" value="true" type="bool" />
+		<option name="overlay_color" value="89d478" type="string" />
+		<option name="overlay_alpha" value="0.40000000000000002" type="float" />
+
+		<option name="item_border_width" value="0" type="int" />
+		<option name="item_border_color" value="ffffff" type="string" />
+		<option name="item_border_alpha" value="1" type="float" />
+		
+		<option name="title_displayed" value="true" type="bool" />
+		<option name="title_position" value="top" type="string" />
+		<option name="title_font" value="Baskerville" type="string" />
+		<option name="title_size" value="18" type="int" />
+		<option name="title_weight" value="normal" type="string" />
+		<option name="title_style" value="normal" type="string" />
+		<option name="title_decoration" value="none" type="string" />
+		<option name="title_color" value="68282a" type="string" />
+		
+		<option name="caption_displayed" value="false" type="bool" />
+		
+		<option name="play_displayed" value="true" type="bool" />
+		<option name="play_position" value="bottomleft" type="string" />
+		<option name="play_text" value="gallery1play_text" type="string" />
+
+
+
+
+		<option name="navigation_displayed" value="true" type="bool" />
+		<option name="navigation_position" value="bottom" type="string" />
+		<option name="counter_color" value="666666" type="string" />
+		<option name="navprev_text" value="gallery1navprev_text" type="string" />
+		<option name="navnext_text" value="gallery1navnext_text" type="string" />
+
+
+
+
+		<option name="navigation_arrows" value="true" type="bool" />
+
+
+
+
+		<option name="fullscreen_displayed" value="true" type="bool" />
+		<option name="fullscreen_position" value="topleft" type="string" />
+		<option name="fullscreen_text" value="gallery1fullscreen_text" type="string" />
+
+
+
+
+		<option name="close_displayed" value="true" type="bool" />
+		<option name="close_position" value="topright" type="string" />
+		<option name="close_text" value="gallery1close_text" type="string" />
+
+		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery1')" type="string" />
+		<option name="zorder" value="7" type="int" />
+		<option name="use_i18n" value="true" type="bool" />
+	</settings>
+	<internaldata>
+		<item name="item_1" title="gallery1picture_title0" caption="gallery1picture_caption0" value="RistoranteCorona_VTdata/graphics/gallery1/coronafoto-2.jpg"/>
+		<item name="item_2" title="gallery1picture_title1" caption="gallery1picture_caption1" value="RistoranteCorona_VTdata/graphics/gallery1/coronafoto.jpg"/>
+	</internaldata>
+</ptplugin>
+
+<action name="kolorBoxJsReady_gallery1">
+	set(ptplugin[gallery1].jsready, true);
+</action>
+
+<action name="showGallery_gallery1">
+	ifnot(ptplugin[gallery1].isOpen,
+		set(ptplugin[gallery1].isOpen, true);
+		set(ptplugin[gallery1].doNotDeleteMe, false);
+		set(gallery1_boxurl, %1);
+		pauseautorotation(forceplugin);
+
+		js(invokePluginFunction(gallery1, openKolorBox, %1));
+		events.dispatch(onremovedisplayedobject);
+	,
+		if(%1 !== null AND %1 != gallery1_boxurl,
+			closeKolorBox_gallery1();
+			delayedcall(0.3,showGallery_gallery1(%1););
+		);
+	);
+</action>
+
+<action name="toggleGallery_gallery1">
+	js(invokePluginFunction(gallery1, toggleKolorBox, %1));
+</action>
+
+
+<action name="closeKolorBox_gallery1">
+	js(invokePluginFunction(gallery1, closeKolorBox));
+</action>
+
+<action name="closeKolorBoxCallback_gallery1">
+	resumeautorotation(forceplugin);
+
+	set(ptplugin[gallery1].isOpen, false);
+</action>
+
+<action name="changeLanguage_gallery1">
+	if(ptplugin[gallery1].jsready,
+		js(invokePluginFunction(gallery1, changeLanguage));
+	,
+		delayedcall(delay_gallery1, 0.1, changeLanguage_gallery1(););
+	);
+</action>
+
+<events name="kolorBoxEvents_gallery1" 
+	keep="true"
+	changetourlanguage="changeLanguage_gallery1();"
+	/>
+
+
+<ptplugin name="gallery" engine="kolorBox">
+	<settings>
+		<option name="position" value="center" type="string" />
+		<option name="margin_x" value="0" type="int" />
+		<option name="margin_y" value="0" type="int" />
+		<option name="external_padding" value="15" type="int" />
+		<option name="draggable_box" value="false" type="bool" />
+		<option name="slideshow_autoplay" value="false" type="bool" />
+		<option name="slideshow" value="5000" type="int" />
+		<option name="container_auto_size" value="true" type="bool" />
+		<option name="container_width" value="100" type="int" />
+		<option name="container_width_unit" value="percent" type="string" />
+		<option name="container_height" value="100" type="int" />
+		<option name="container_height_unit" value="percent" type="string" />
+		<option name="container_color" value="8e8e8e" type="string" />
+		<option name="container_alpha" value="0.7000076295109483" type="float" />
+		<option name="container_topleft_border_radius" value="15" type="int" />
+		<option name="container_topright_border_radius" value="15" type="int" />
+		<option name="container_bottomleft_border_radius" value="15" type="int" />
+		<option name="container_bottomright_border_radius" value="15" type="int" />
+		<option name="container_border_width" value="0" type="int" />
+		<option name="container_border_color" value="ffffff" type="string" />
+		<option name="container_border_alpha" value="1" type="float" />
+		<option name="overlay_displayed" value="true" type="bool" />
+		<option name="overlay_color" value="000000" type="string" />
+		<option name="overlay_alpha" value="0.50000762951094835" type="float" />
+
+		<option name="item_border_width" value="0" type="int" />
+		<option name="item_border_color" value="ffffff" type="string" />
+		<option name="item_border_alpha" value="1" type="float" />
+		
+		<option name="title_displayed" value="true" type="bool" />
+		<option name="title_position" value="top" type="string" />
+		<option name="title_font" value="Baskerville" type="string" />
+		<option name="title_size" value="14" type="int" />
+		<option name="title_weight" value="normal" type="string" />
+		<option name="title_style" value="normal" type="string" />
+		<option name="title_decoration" value="none" type="string" />
+		<option name="title_color" value="666666" type="string" />
+		
+		<option name="caption_displayed" value="false" type="bool" />
+		
+		<option name="play_displayed" value="true" type="bool" />
+		<option name="play_position" value="bottomleft" type="string" />
+		<option name="play_text" value="galleryplay_text" type="string" />
+
+
+
+
+		<option name="navigation_displayed" value="true" type="bool" />
+		<option name="navigation_position" value="bottom" type="string" />
+		<option name="counter_color" value="666666" type="string" />
+		<option name="navprev_text" value="gallerynavprev_text" type="string" />
+		<option name="navnext_text" value="gallerynavnext_text" type="string" />
+
+
+
+
+		<option name="navigation_arrows" value="true" type="bool" />
+
+
+
+
+		<option name="fullscreen_displayed" value="true" type="bool" />
+		<option name="fullscreen_position" value="topleft" type="string" />
+		<option name="fullscreen_text" value="galleryfullscreen_text" type="string" />
+
+
+
+
+		<option name="close_displayed" value="true" type="bool" />
+		<option name="close_position" value="topright" type="string" />
+		<option name="close_text" value="galleryclose_text" type="string" />
+
+		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_gallery')" type="string" />
+		<option name="zorder" value="8" type="int" />
+		<option name="use_i18n" value="true" type="bool" />
+	</settings>
+	<internaldata>
+		<item name="item_1" title="gallerypicture_title3" caption="gallerypicture_caption3" value="RistoranteCorona_VTdata/graphics/gallery/coronafoto-1.jpg"/>
+		<item name="item_2" title="gallerypicture_title3" caption="gallerypicture_caption3" value="RistoranteCorona_VTdata/graphics/gallery/schermata_2022-01-11_alle_19.54.43.png"/>
+		<item name="item_3" title="gallerypicture_title1" caption="gallerypicture_caption1" value="RistoranteCorona_VTdata/graphics/gallery/coronafoto-19.jpg"/>
+		<item name="item_4" title="gallerypicture_title2" caption="gallerypicture_caption2" value="RistoranteCorona_VTdata/graphics/gallery/coronafoto-20.jpg"/>
+	</internaldata>
+</ptplugin>
+
+<action name="kolorBoxJsReady_gallery">
+	set(ptplugin[gallery].jsready, true);
+</action>
+
+<action name="showGallery_gallery">
+	ifnot(ptplugin[gallery].isOpen,
+		set(ptplugin[gallery].isOpen, true);
+		set(ptplugin[gallery].doNotDeleteMe, false);
+		set(gallery_boxurl, %1);
+		pauseautorotation(forceplugin);
+
+		js(invokePluginFunction(gallery, openKolorBox, %1));
+		events.dispatch(onremovedisplayedobject);
+	,
+		if(%1 !== null AND %1 != gallery_boxurl,
+			closeKolorBox_gallery();
+			delayedcall(0.3,showGallery_gallery(%1););
+		);
+	);
+</action>
+
+<action name="toggleGallery_gallery">
+	js(invokePluginFunction(gallery, toggleKolorBox, %1));
+</action>
+
+
+<action name="closeKolorBox_gallery">
+	js(invokePluginFunction(gallery, closeKolorBox));
+</action>
+
+<action name="closeKolorBoxCallback_gallery">
+	resumeautorotation(forceplugin);
+
+	set(ptplugin[gallery].isOpen, false);
+</action>
+
+<action name="changeLanguage_gallery">
+	if(ptplugin[gallery].jsready,
+		js(invokePluginFunction(gallery, changeLanguage));
+	,
+		delayedcall(delay_gallery, 0.1, changeLanguage_gallery(););
+	);
+</action>
+
+<events name="kolorBoxEvents_gallery" 
+	keep="true"
+	changetourlanguage="changeLanguage_gallery();"
+	/>
+
+
+
+<plugin name="gyroscope"
+        url="%FIRSTXML%/graphics/gyro2.js"
+        keep="true"
+        devices="no-desktop.and.html5"
+
+        onunavailable="checkGyroUnavailable();"
+        sensor_mode="1"
+        friction="auto"
+        autocalibration="true"
+        touch_mode="full"
+        onavailable="delayedcall(1, checkGyroAvailability(););"
+        enabled="false"
+        activated="false"
+        />
+
+<events name="gyroscopeEvents" onnewpano="planarGyroscopeTest();" keep="true" />
+
+<action name="planarGyroscopeTest">
+  if(plugin[gyroscope],
+    if(scene[get(xml.scene)].full360,
+      set(sceneisfull360, false);
+      sub(viewhfov, panoview.hmax, panoview.hmin);
+      if (viewhfov == 360,
+        sub(viewvfov, panoview.vmax, panoview.vmin);
+        if (viewvfov == 180,
+          set(sceneisfull360, true);
+        );
+      );
+      if (sceneisfull360,
+        set(plugin[gyroscope].camroll, true);
+      ,
+        set(plugin[gyroscope].camroll, false);
+      );
+    ,
+      set(plugin[gyroscope].camroll, false);
+    );
+  );
+</action>
+
+<action name="changeGyroscopeState">
+  if(plugin[gyroscope],
+    if (plugin[gyroscope].isavailable,
+      if(%1,
+        set(plugin[gyroscope].activated,true);
+      ,
+        set(plugin[gyroscope].activated,false);
+      );
+      if (%1 != plugin[gyroscope].enabled,
+        if(plugin[gyroscope].activated,
+          switch(plugin[gyroscope].enabled);
+        ,
+          set(plugin[gyroscope].enabled, false);
+        );
+        if (plugin[gyroscope].enabled, events.dispatch(ongyroscopeon);, events.dispatch(ongyroscopeoff););
+      );
+    );
+  );
+</action>
+
+<action name="checkGyroAvailability">
+  if(plugin[gyroscope],
+    if (plugin[gyroscope].isavailable,
+      
+      set(sceneisfull360, false);
+      if (scene[get(xml.scene)].full360,
+        sub(viewhfov, panoview.hmax, panoview.hmin);
+        if (viewhfov == 360,
+          sub(viewvfov, panoview.vmax, panoview.vmin);
+          if (viewvfov == 180,
+            set(sceneisfull360, true);
+          );
+        );
+      );
+      set(delaythegyrocheck, false);
+      if (sceneisfull360 AND tour_firstlittleplanet, set(delaythegyrocheck, true));
+
+      ifnot(delaythegyrocheck,
+        switch(plugin[gyroscope].enabled);
+        set(plugin[gyroscope].activated,true);
+        set(tour_gyroscopedevices, true);
+        events.dispatch(ongyroscopeavailable);
+      ,
+        delayedcall(1, checkGyroAvailability(););
+      );
+    ,
+      set(tour_gyroscopedevices, false);
+    );
+    if (plugin[gyroscope].enabled, events.dispatch(ongyroscopeon);, events.dispatch(ongyroscopeoff););
+  ,
+    checkGyroUnavailable();
+  );
+</action>
+
+<action name="checkGyroUnavailable">
+  set(plugin[gyroscope].activated, false);
+  set(plugin[gyroscope].enabled, false);
+  set(tour_gyroscopedevices, false);
+  events.dispatch(ongyroscopeunavailable);
+</action>
+
+
+	<events name="mobileorientation_events" devices="mobile" keep="true" onresize="mobileorientation_portrait_mode_check();"/>
+
+	<action name="mobileorientation_portrait_mode_check" device="mobile">
+		div(aspect, stagewidth, stageheight);
+		if(aspect != lastaspect OR '%1' == 'true',
+			copy(lastaspect, aspect);
+			if(stagewidth GT stageheight,
+				tween(layer[mobileorientation_rotate_device_required].alpha, 0.0, 0.0);
+			,
+				tween(layer[mobileorientation_rotate_device_required].alpha, 1.0);
+				delayedcall(3.0, tween(layer[mobileorientation_rotate_device_required].alpha, 0.0, 1.0););
+			);
+		);
+	</action>	
+
+	<layer name="mobileorientation_rotate_device_required" keep="true" devices="mobile" 
+		url="%FIRSTXML%/graphics/rotate_device.png" width="80%" height="prop"
+		align="center" edge="center"
+		autoalpha="true" alpha="0.0"
+		enabled="false"
+		/>	
+  <events name="doubleclick_events" keep="true" ondoubleclick="doubleclick_ondoubleclick"/>
+  <action name="doubleclick_ondoubleclick">switchFullscreen();
+
+
+  </action>
+<action name="dovibrationsvibromobile" type="Javascript" autorun="" devices="mobile"><![CDATA[
+  window.navigator.vibrate([100,30,100]);
+
+]]></action>
+
+  <contextmenu fullscreen="false" versioninfo="false" touch="true" customstyle="default|14|default|0xFFFFFF|0x000000|0xBBBBBB|0|0|5|2|2|8|0x66000000|0|0|1|4|5|0xEEEEEE|none|1|0|0|0|3|0xEEEEEE|0|0|20|12">
+    <item name="author" onclick="getmessage(urltoopen,project_author_url);openurl(get(urltoopen),_blank);" />
+    <item name="website1" onclick="getmessage(urltoopen,contextmenuwebsiteurl1);openurl(get(urltoopen),_blank);" />
+    <item name="normal"        onclick="setViewNormal();
+" separator="true"/>
+    <item name="fisheye"       onclick="setViewFisheye();
+"/>
+    <item name="littleplanet"  onclick="setViewLittlePlanet();
+"/>
+    <item name="fullscreenentry" onclick="enterFullscreen();
+" separator="true"/>
+    <item name="vrmodeentry" onclick="if(scene[get(xml.scene)].full360 AND disableCurrentSceneVrConservation !== true,
+    js(accessWebVr(get(xml.scene),get(videoscenestarttime)));
+,
+    js(accessWebVr(null));
+);" />
+  </contextmenu>
+
+  <events name="contextmenuevents" keep="true" 
+    onenterfullscreen="updateContextMenu" onexitfullscreen="updateContextMenu" 
+    onxmlcomplete="updateContextMenu" 
+    changetourlanguage="updateContextMenu" 
+    />
+  <events name="contextmenuvrevents" keep="true" 
+    onvravailable="updateContextMenu();" onvrunavailable="updateContextMenu();"
+    devices="html5.and.mobile"
+    />
+  <action name="updateContextMenu">
+    getmessage(contextmenu.item[author].caption, project_author_name);
+    getmessage(contextmenu.item[website1].caption, contextmenuopenwebsitelabel1);
+    getmessage(contextmenu.item[normal].caption, contextmenunormallabel);
+    set(sceneisfull360, false);
+    if(scene[get(xml.scene)].full360,
+      sub(viewhfov, panoview.hmax, panoview.hmin);
+      if (viewhfov == 360,
+        sub(viewvfov, panoview.vmax, panoview.vmin);
+        if (viewvfov == 180,
+          set(sceneisfull360, true);
+        );
+      );
+    );
+    if (sceneisfull360 AND (device.webgl OR device.flash),
+      set(contextmenu.item[fisheye].visible, true);
+      getmessage(contextmenu.item[fisheye].caption, contextmenufisheyelabel);
+      set(contextmenu.item[littleplanet].visible, true);
+      getmessage(contextmenu.item[littleplanet].caption, contextmenulittleplanetlabel);
+    ,
+      set(contextmenu.item[fisheye].visible, false);
+      set(contextmenu.item[littleplanet].visible, false);
+    );
+    if (device.fullscreensupport,
+      if(tour_fullscreen,
+        getmessage(contextmenu.item[fullscreenentry].caption, contextmenucloseFsLabel);
+        set(contextmenu.item[fullscreenentry].onclick, exitFullscreen();
+);
+       ,
+        getmessage(contextmenu.item[fullscreenentry].caption, contextmenuopenFsLabel);
+        set(contextmenu.item[fullscreenentry].onclick, enterFullscreen();
+);
+      );
+     ,
+      set(contextmenu.item[fullscreenentry].visible, false);
+    );
+    if (device.html5 AND device.mobile AND tour_vrdevices,
+      getmessage(contextmenu.item[vrmodeentry].caption, contextmenuopenVrLabel);
+      set(contextmenu.item[vrmodeentry].onclick, if(scene[get(xml.scene)].full360 AND disableCurrentSceneVrConservation !== true,
+    js(accessWebVr(get(xml.scene),get(videoscenestarttime)));
+,
+    js(accessWebVr(null));
+););
+     ,
+      set(contextmenu.item[vrmodeentry].visible, false);
+    );
+  </action>
+
+
+<ptplugin name="PdfViewer" engine="kolorBox">
+	<settings>
+		<option name="position" value="center" type="string" />
+		<option name="margin_x" value="10" type="int" />
+		<option name="margin_y" value="10" type="int" />
+		<option name="external_padding" value="20" type="int" />
+		<option name="draggable_box" value="true" type="bool" />
+		<option name="container_auto_size" value="true" type="bool" />
+		<option name="container_width" value="100" type="int" />
+		<option name="container_width_unit" value="percent" type="string" />
+		<option name="container_height" value="100" type="int" />
+		<option name="container_height_unit" value="percent" type="string" />
+		<option name="container_color" value="6d6f66" type="string" />
+		<option name="container_alpha" value="0.7000076295109483" type="float" />
+		<option name="container_topleft_border_radius" value="15" type="int" />
+		<option name="container_topright_border_radius" value="15" type="int" />
+		<option name="container_bottomleft_border_radius" value="15" type="int" />
+		<option name="container_bottomright_border_radius" value="15" type="int" />
+		<option name="container_border_width" value="0" type="int" />
+		<option name="container_border_color" value="ffffff" type="string" />
+		<option name="container_border_alpha" value="0" type="float" />
+		<option name="overlay_displayed" value="false" type="bool" />
+		<option name="overlay_color" value="000000" type="string" />
+		<option name="overlay_alpha" value="0.50000762951094835" type="float" />
+
+		<option name="title_displayed" value="true" type="bool" />
+		<option name="title_position" value="top" type="string" />
+		<option name="title_font" value="Baskerville" type="string" />
+		<option name="title_size" value="16" type="int" />
+		<option name="title_weight" value="normal" type="string" />
+		<option name="title_style" value="normal" type="string" />
+		<option name="title_decoration" value="none" type="string" />
+		<option name="title_color" value="89341d" type="string" />
+		<option name="caption_displayed" value="false" type="bool" />
+		<option name="fullscreen_displayed" value="false" type="bool" />
+		<option name="fullscreen_position" value="topleft" type="string" />
+		<option name="fullscreen_text" value="PdfViewerfullscreen_text" type="string" />
+
+
+
+
+		<option name="close_displayed" value="true" type="bool" />
+		<option name="close_position" value="topright" type="string" />
+		<option name="close_text" value="PdfViewerclose_text" type="string" />
+
+		<option name="iframe_default_width" value="1000" type="int" />
+		<option name="iframe_default_height" value="600" type="int" />
+		<option name="iframe_devices_width" value="1200" type="int" />
+		<option name="iframe_devices_height" value="5000" type="int" />
+		<option name="force_ios_scrolling" value="true" type="bool" />
+		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback_PdfViewer')" type="string" />
+		<option name="zorder" value="14" type="int" />
+		<option name="use_i18n" value="true" type="bool" />
+	</settings>
+	<internaldata>
+		
+	</internaldata>
+</ptplugin>
+
+<action name="kolorBoxJsReady_PdfViewer">
+	set(ptplugin[PdfViewer].jsready, true);
+</action>
+
+<action name="openPDF_PdfViewer">
+	ifnot(ptplugin[PdfViewer].isOpen,
+		if(ptplugin[PdfViewer].doNotDeleteMe,
+			set(ptplugin[PdfViewer].currentCall, false);
+		set(ptplugin[PdfViewer].isOpen, true);
+		set(ptplugin[PdfViewer].doNotDeleteMe, false);
+		set(PdfViewer_boxurl, %1);
+		pauseautorotation(forceplugin);
+
+		js(invokePluginFunction(PdfViewer, loadSingleArrayItem, %1?iframe=true, %2));
+		,
+			set(ptplugin[PdfViewer].currentCall, true);
+			set(ptplugin[PdfViewer].doNotDeleteMe, true);
+			events.dispatch(onremovedisplayedobject);
+			delayedcall(0.3,openPDF_PdfViewer(%1,%2););
+		);
+	,
+		if('%1' != PdfViewer_boxurl,
+			closeKolorBox_PdfViewer();
+			delayedcall(0.3,openPDF_PdfViewer(%1,%2););
+		);
+	);
+</action>
+
+<action name="togglePDF_PdfViewer">
+	js(invokePluginFunction(PdfViewer, toggleKolorBox, %1));
+</action>
+
+
+<action name="closeKolorBox_PdfViewer">
+	if(ptplugin[PdfViewer].doNotDeleteMe,
+		set(ptplugin[PdfViewer].doNotDeleteMe, false);
+	,
+	js(invokePluginFunction(PdfViewer, closeKolorBox));
+	);
+</action>
+
+<action name="closeKolorBoxCallback_PdfViewer">
+	resumeautorotation(forceplugin);
+
+	set(ptplugin[PdfViewer].doNotDeleteMe, false);
+	set(ptplugin[PdfViewer].isOpen, false);
+</action>
+
+<action name="changeLanguage_PdfViewer">
+	if(ptplugin[PdfViewer].jsready,
+		stopdelayedcall(delay_PdfViewer);
+		js(invokePluginFunction(PdfViewer, changeLanguage));
+	,
+		delayedcall(delay_PdfViewer, 0.1, changeLanguage_PdfViewer(););
+	);
+</action>
+
+<events name="kolorBoxEvents_PdfViewer" 
+	keep="true"
+	onremovepano="if(ptplugin[PdfViewer].isOpen,closeKolorBox_PdfViewer(););"
+	onremovedisplayedobject="ifnot(ptplugin[PdfViewer].currentCall,if(ptplugin[PdfViewer].isOpen,closeKolorBox_PdfViewer();););"
+	changetourlanguage="changeLanguage_PdfViewer();"
+	/>
+
+  
+
+
+
+
+
+
+<layer name="thumbnailsBar_thumbnailsBar_theme02" 
+	keep="true" 
+	type="image" 
+	visible="false"
+	align="right" 
+	
+		width="0" 
+		height="100%" 
+		accuracy="1"
+	
+	x="0"
+	y="15"
+	
+	url="%FIRSTXML%/graphics/classicthumbnailsbar/frame_bg.png" 
+	scale9grid="10|10|80|80"
+	
+	zorder="16"
+/>
+
+
+<layer name="thumbnailBorderSource_thumbnailsBar_theme02"
+	keep="true"
+	visible="false"
+	onloaded="loadedImages_thumbnailsBar_theme02(border);"
+	url="%FIRSTXML%/graphics/classicthumbnailsbar/thumbnails_states.png" 
+	offsetX="10"
+	offsetY="10"
+	quarterHeight="0"
+/>
+
+
+	
+	<krpano arrow1Loaded_thumbnailsBar_theme02="false" arrow2Loaded_thumbnailsBar_theme02="false" borderLoaded_thumbnailsBar_theme02="false" thumbnailsLoadedCounter_thumbnailsBar_theme02="0" thumbsCount_thumbnailsBar_theme02="0" thumbsCounter_thumbnailsBar_theme02="0" firstInit_thumbnailsBar_theme02="false" />
+	
+	
+	<events name="thumbnailsScrollEvents_thumbnailsBar_theme02" 
+		keep="true" 
+		
+		onxmlcomplete="ifnot(startResize_thumbnailsBar_theme02,set(isLoaded_thumbnailsBar_theme02, true);if(isStarted_thumbnailsBar_theme02,onLoadCompleteHandler_thumbnailsBar_theme02();););"
+		onTourStart="set(isStarted_thumbnailsBar_theme02, true);if(isLoaded_thumbnailsBar_theme02,onLoadCompleteHandler_thumbnailsBar_theme02(););"
+		onnewpano="if(startResize_thumbnailsBar_theme02,if(firstInit_thumbnailsBar_theme02,onLoadCompleteHandler_thumbnailsBar_theme02();););"
+		onresize="onResizeHandler_thumbnailsBar_theme02();"
+		hidetourthumbnails="hideWithThumbnailsButton_thumbnailsBar_theme02();" 
+		showtourthumbnails="showWithThumbnailsButton_thumbnailsBar_theme02();" 
+		hidetourcontrols="hideWithControlsBar_thumbnailsBar_theme02();" 
+		showtourcontrols="showWithControlsBar_thumbnailsBar_theme02();" 
+		onenterfullscreen="delayedcall(0.2,scrollToCurrentThumb_thumbnailsBar_theme02(););"
+		onexitfullscreen="delayedcall(0.2,scrollToCurrentThumb_thumbnailsBar_theme02(););"	
+	/>
+	
+	
+	<layer name="scrollAreaContainer_thumbnailsBar_theme02" 
+         keep="true"
+         type="container" 
+         align="topleft" x="5" y="5"
+         marginX="5"
+         marginY="5"
+         width="0" height="0"
+         targetWidth="0"
+         targetHeight="0"
+         scrollSpeedInit="10"
+         scrollSpeed="10"
+         scrollSpeedMax="70"
+         scrollSpeedAcceleration="20"
+         parent="thumbnailsBar_thumbnailsBar_theme02"
+         thumbWidth="0"
+         thumbHeight="0"
+         itemWidth="100"
+         itemHeight="50"
+         offsetX="0" offsetY="0"
+         thumbSpacer="0"
+         currentThumbsCount="0"
+         adjustToContent="false"
+         zorder="1"
+         visible="false"
+         ready="false">
+	
+		
+    <layer name="thumbsScrollArea_thumbnailsBar_theme02"
+           url.html5="%FIRSTXML%/graphics/scrollarea.js"
+           align="right" x="0" y="0"
+           onhover_autoscrolling="false"
+           direction="v"/>
+	
+	</layer>
+	
+	
+	<layer name="scrollPrevArrow_thumbnailsBar_theme02" 
+         keep="true"
+         type="image"
+         visible="false"
+         parent="thumbnailsBar_thumbnailsBar_theme02"
+         targetHeight="0"
+         targetWidth="0"
+         zorder="2"
+         onloaded="loadedImages_thumbnailsBar_theme02(arrow1);"
+         url="%FIRSTXML%/graphics/classicthumbnailsbar/btn_scroll_up.png"
+         align="top"
+	/>
+	
+	
+	<layer name="scrollNextArrow_thumbnailsBar_theme02" 
+         keep="true"
+         type="image"
+         visible="false"
+         parent="thumbnailsBar_thumbnailsBar_theme02"
+         targetHeight="0"
+         targetWidth="0"
+         zorder="2"
+         onloaded="loadedImages_thumbnailsBar_theme02(arrow2);"
+         url="%FIRSTXML%/graphics/classicthumbnailsbar/btn_scroll_down.png"
+         align="bottom"
+	/>
+	
+	<action name="loadedImages_thumbnailsBar_theme02">
+		if(%1 == "arrow1",
+			set(arrow1Loaded_thumbnailsBar_theme02, true);
+		);
+		if(%1 == "arrow2",
+			set(arrow2Loaded_thumbnailsBar_theme02, true);
+		);
+		if(%1 == "border",
+			if(layer[thumbnailBorderSource_thumbnailsBar_theme02].url,
+				set(borderLoaded_thumbnailsBar_theme02, true);
+			);
+		);
+		if(%1 == "thumbnail",
+			inc(thumbnailsLoadedCounter_thumbnailsBar_theme02);
+		);
+	</action>
+	
+	<action name="onLoadCompleteHandler_thumbnailsBar_theme02">
+		
+		set(thumbsCount_thumbnailsBar_theme02, 0);
+		
+		
+		set(thumbsCount_thumbnailsBar_theme02, get(scene.count));
+		
+		
+		
+		
+		
+		
+		
+		loadThumbs_thumbnailsBar_theme02();
+		
+		if(firstInit_thumbnailsBar_theme02,
+			onLoadCompleteHandlerPartThree_thumbnailsBar_theme02();
+		,
+			onLoadCompleteHandlerPartTwo_thumbnailsBar_theme02();
+		);
+	</action>
+	
+	<action name="onLoadCompleteHandlerPartTwo_thumbnailsBar_theme02">
+		set(imgCounter_thumbnailsBar_theme02, 3);
+		
+		if(arrow1Loaded_thumbnailsBar_theme02,
+			dec(imgCounter_thumbnailsBar_theme02);
+		);
+		if(arrow2Loaded_thumbnailsBar_theme02,
+			dec(imgCounter_thumbnailsBar_theme02);
+		);
+		if(thumbsCount_thumbnailsBar_theme02 == thumbnailsLoadedCounter_thumbnailsBar_theme02,
+			dec(imgCounter_thumbnailsBar_theme02);
+		);
+		
+		if(imgCounter_thumbnailsBar_theme02 LE 0,
+			stopdelayedcall(delayedCallOnLoadComplete_thumbnailsBar_theme02);
+			onLoadCompleteHandlerPartThree_thumbnailsBar_theme02();
+		,
+			delayedcall(delayedCallOnLoadComplete_thumbnailsBar_theme02, 0.2, onLoadCompleteHandlerPartTwo_thumbnailsBar_theme02());
+		);
+	</action>
+	
+	<action name="onLoadCompleteHandlerPartThree_thumbnailsBar_theme02">
+		resetMouseBehavior_thumbnailsBar_theme02();
+		highlightCurrentThumb_thumbnailsBar_theme02();
+		
+		
+		if(layer[scrollAreaContainer_thumbnailsBar_theme02].adjustToContent,
+			mul(adjustWidth_thumbnailsBar_theme02, get(layer[scrollAreaContainer_thumbnailsBar_theme02].marginX), 2);
+			add(adjustWidth_thumbnailsBar_theme02, get(layer[thumbsScrollArea_thumbnailsBar_theme02].width));
+			mul(adjustHeight_thumbnailsBar_theme02, get(layer[scrollAreaContainer_thumbnailsBar_theme02].marginY), 2);
+			add(adjustHeight_thumbnailsBar_theme02, get(layer[thumbsScrollArea_thumbnailsBar_theme02].height));
+			
+			
+			if(adjustWidth_thumbnailsBar_theme02 GT stagewidth,
+				set(adjustWidth_thumbnailsBar_theme02, get(stagewidth));
+				set(layer[scrollAreaContainer_thumbnailsBar_theme02].adjustToContent, false);
+			,
+				if(adjustHeight_thumbnailsBar_theme02 GT stageheight,
+					set(adjustHeight_thumbnailsBar_theme02, get(stageheight));
+					set(layer[scrollAreaContainer_thumbnailsBar_theme02].adjustToContent, false);
+				);
+			);
+			
+			setSize_thumbnailsBar_theme02(get(adjustWidth_thumbnailsBar_theme02), get(adjustHeight_thumbnailsBar_theme02));
+		);
+		
+		setupArrows_thumbnailsBar_theme02(true);
+		
+		
+		if (thumbsCounter_thumbnailsBar_theme02 LE 0,
+			set(layer[thumbnailsBar_thumbnailsBar_theme02].visible, false);
+		);
+		
+		
+		set(startResize_thumbnailsBar_theme02, true);
+		set(firstInit_thumbnailsBar_theme02, true);
+	</action>
+	
+	
+	<action name="onResizeHandler_thumbnailsBar_theme02">
+		
+		delayedcall(0.1, onResizeCallback_thumbnailsBar_theme02(false); );
+	</action>
+	
+	
+	<action name="onResizeCallback_thumbnailsBar_theme02">
+		if(startResize_thumbnailsBar_theme02,
+			setSize_thumbnailsBar_theme02(get(layer[scrollAreaContainer_thumbnailsBar_theme02].targetWidth), get(layer[scrollAreaContainer_thumbnailsBar_theme02].targetHeight));
+			setupArrows_thumbnailsBar_theme02(%1);
+			
+			
+			if (thumbsCounter_thumbnailsBar_theme02 LE 0,
+				set(layer[thumbnailsBar_thumbnailsBar_theme02].visible, false);
+			);
+		);
+	</action>
+	
+	
+		<action name="showWithThumbnailsButton_thumbnailsBar_theme02">
+			set(layer[thumbnailsBar_thumbnailsBar_theme02].visible, true);
+			onResizeCallback_thumbnailsBar_theme02(true);
+		</action>
+		
+		<action name="hideWithThumbnailsButton_thumbnailsBar_theme02">
+			set(layer[thumbnailsBar_thumbnailsBar_theme02].visible, false);
+		</action>
+	
+	
+		<action name="showWithControlsBar_thumbnailsBar_theme02">
+			
+				if (tour_displaythumbnails,
+					set(layer[thumbnailsBar_thumbnailsBar_theme02].visible, true);
+					onResizeCallback_thumbnailsBar_theme02(true);
+				,
+					set(layer[thumbnailsBar_thumbnailsBar_theme02].visible, false);
+				);
+		</action>
+		
+		<action name="hideWithControlsBar_thumbnailsBar_theme02">
+			set(layer[thumbnailsBar_thumbnailsBar_theme02].visible, false);
+		</action>
+	
+	
+	<action name="thumbnailBorderDrawInit_thumbnailsBar_theme02">
+		
+		set(layer[scrollAreaContainer_thumbnailsBar_theme02].offsetX, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].borderWidth));
+		set(layer[scrollAreaContainer_thumbnailsBar_theme02].offsetY, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].borderWidth));
+		
+		
+		mul(totalOffsetX_thumbnailsBar_theme02, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].borderWidth), 2);
+		mul(totalOffsetY_thumbnailsBar_theme02, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].borderWidth), 2);
+		
+		
+		if(startResize_thumbnailsBar_theme02,
+			sub(layer[scrollAreaContainer_thumbnailsBar_theme02].itemWidth, get(totalOffsetX_thumbnailsBar_theme02));
+			sub(layer[scrollAreaContainer_thumbnailsBar_theme02].itemHeight, get(totalOffsetY_thumbnailsBar_theme02));
+		);
+		
+		
+		set(layer[scrollAreaContainer_thumbnailsBar_theme02].thumbWidth, get(layer[scrollAreaContainer_thumbnailsBar_theme02].itemWidth));
+		set(layer[scrollAreaContainer_thumbnailsBar_theme02].thumbHeight, get(layer[scrollAreaContainer_thumbnailsBar_theme02].itemHeight));
+		
+		add(layer[scrollAreaContainer_thumbnailsBar_theme02].itemWidth, get(totalOffsetX_thumbnailsBar_theme02));
+		add(layer[scrollAreaContainer_thumbnailsBar_theme02].itemHeight, get(totalOffsetY_thumbnailsBar_theme02));
+	</action>
+		
+	
+	<action name="thumbnailBorderImageInit_thumbnailsBar_theme02">
+		
+		set(layer[scrollAreaContainer_thumbnailsBar_theme02].offsetX, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].offsetX));
+		set(layer[scrollAreaContainer_thumbnailsBar_theme02].offsetY, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].offsetY));
+		
+		
+		mul(totalOffsetX_thumbnailsBar_theme02, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].offsetX), 2);
+		mul(totalOffsetY_thumbnailsBar_theme02, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].offsetY), 2);
+		
+		
+		if(startResize_thumbnailsBar_theme02,
+			sub(layer[scrollAreaContainer_thumbnailsBar_theme02].itemWidth, get(totalOffsetX_thumbnailsBar_theme02));
+			sub(layer[scrollAreaContainer_thumbnailsBar_theme02].itemHeight, get(totalOffsetY_thumbnailsBar_theme02));
+		);
+		
+		
+		set(layer[scrollAreaContainer_thumbnailsBar_theme02].thumbWidth, get(layer[scrollAreaContainer_thumbnailsBar_theme02].itemWidth));
+		set(layer[scrollAreaContainer_thumbnailsBar_theme02].thumbHeight, get(layer[scrollAreaContainer_thumbnailsBar_theme02].itemHeight));
+		
+		add(layer[scrollAreaContainer_thumbnailsBar_theme02].itemWidth, get(totalOffsetX_thumbnailsBar_theme02));
+		add(layer[scrollAreaContainer_thumbnailsBar_theme02].itemHeight, get(totalOffsetY_thumbnailsBar_theme02));
+		
+		
+		div(layer[thumbnailBorderSource_thumbnailsBar_theme02].quarterHeight, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].height), 4);
+		
+		
+		set(cropX_thumbnailsBar_theme02, 0);
+		set(cropY_thumbnailsBar_theme02, 0);
+		set(cropW_thumbnailsBar_theme02, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].width));
+		set(cropH_thumbnailsBar_theme02, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].quarterHeight));
+		txtadd(layer[thumbnailBorderSource_thumbnailsBar_theme02].cropDefault, get(cropX_thumbnailsBar_theme02), '|', get(cropY_thumbnailsBar_theme02), '|', get(cropW_thumbnailsBar_theme02), '|', get(cropH_thumbnailsBar_theme02));
+
+		
+		add(cropY_thumbnailsBar_theme02, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].quarterHeight));
+		txtadd(layer[thumbnailBorderSource_thumbnailsBar_theme02].cropHover, get(cropX_thumbnailsBar_theme02), '|', get(cropY_thumbnailsBar_theme02), '|', get(cropW_thumbnailsBar_theme02), '|', get(cropH_thumbnailsBar_theme02));
+		
+		
+		add(cropY_thumbnailsBar_theme02, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].quarterHeight));
+		txtadd(layer[thumbnailBorderSource_thumbnailsBar_theme02].cropSelected, get(cropX_thumbnailsBar_theme02), '|', get(cropY_thumbnailsBar_theme02), '|', get(cropW_thumbnailsBar_theme02), '|', get(cropH_thumbnailsBar_theme02));
+		
+		
+		add(cropY_thumbnailsBar_theme02, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].quarterHeight));
+		txtadd(layer[thumbnailBorderSource_thumbnailsBar_theme02].cropVisited, get(cropX_thumbnailsBar_theme02), '|', get(cropY_thumbnailsBar_theme02), '|', get(cropW_thumbnailsBar_theme02), '|', get(cropH_thumbnailsBar_theme02));
+		
+		
+		set(scaleX_thumbnailsBar_theme02, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].offsetX));
+		set(scaleY_thumbnailsBar_theme02, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].offsetY));
+		sub(scaleW_thumbnailsBar_theme02, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].width), get(totalOffsetX_thumbnailsBar_theme02));
+		sub(scaleH_thumbnailsBar_theme02, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].quarterHeight), get(totalOffsetY_thumbnailsBar_theme02));
+		txtadd(layer[thumbnailBorderSource_thumbnailsBar_theme02].scale9grid, get(scaleX_thumbnailsBar_theme02), '|', get(scaleY_thumbnailsBar_theme02), '|', get(scaleW_thumbnailsBar_theme02), '|', get(scaleH_thumbnailsBar_theme02));
+	</action>
+	
+	
+	<action name="loadThumbs_thumbnailsBar_theme02">
+		if(layer[thumbnailBorderSource_thumbnailsBar_theme02].url,
+			set(imgCounter_thumbnailsBar_theme02, 1);
+		,
+			set(imgCounter_thumbnailsBar_theme02, 0);
+		);
+		
+		if(layer[thumbnailBorderSource_thumbnailsBar_theme02].url,
+			if(borderLoaded_thumbnailsBar_theme02,
+				dec(imgCounter_thumbnailsBar_theme02);
+			);
+		);
+		
+		if(imgCounter_thumbnailsBar_theme02 LE 0,
+			stopdelayedcall(delayedCallOnLoadCompleteBorder_thumbnailsBar_theme02);
+			loadThumbsPartTwo_thumbnailsBar_theme02();
+		,
+			delayedcall(delayedCallOnLoadCompleteBorder_thumbnailsBar_theme02, 0.2, loadThumbs_thumbnailsBar_theme02());
+		);
+	</action>
+	
+	<action name="loadThumbsPartTwo_thumbnailsBar_theme02">
+		ifnot(layer[scrollAreaContainer_thumbnailsBar_theme02].ready,
+			
+			
+			if(layer[thumbnailBorderSource_thumbnailsBar_theme02].url,
+				thumbnailBorderImageInit_thumbnailsBar_theme02();
+			,
+				thumbnailBorderDrawInit_thumbnailsBar_theme02();
+			);
+			
+			
+			set(thumbsCounter_thumbnailsBar_theme02, 0);
+			
+			
+				for( set(i_thumbnailsBar_theme02, 0), i_thumbnailsBar_theme02 LT scene.count, inc(i_thumbnailsBar_theme02),
+					createThumb_thumbnailsBar_theme02(get(scene[get(i_thumbnailsBar_theme02)].name), get(scene[get(i_thumbnailsBar_theme02)].thumburl), get(i_thumbnailsBar_theme02), get(scene[get(i_thumbnailsBar_theme02)].titleid));
+					inc(thumbsCounter_thumbnailsBar_theme02);
+				);
+			
+			
+			
+			
+			
+			
+			set(layer[scrollAreaContainer_thumbnailsBar_theme02].currentThumbsCount, get(thumbsCounter_thumbnailsBar_theme02));
+			
+			
+			setSize_thumbnailsBar_theme02(get(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].width), get(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].height));
+			
+			
+			set(layer[scrollAreaContainer_thumbnailsBar_theme02].visible, true);
+			
+			
+				if (tour_displaycontrols,
+					showWithControlsBar_thumbnailsBar_theme02();
+				,
+					hideWithControlsBar_thumbnailsBar_theme02();
+				);
+			
+			
+			set(layer[scrollAreaContainer_thumbnailsBar_theme02].ready, true);
+		);
+	</action>
+	
+	
+	<action name="setSize_thumbnailsBar_theme02">
+		
+		
+		set(layer[scrollAreaContainer_thumbnailsBar_theme02].targetWidth, %1);
+		set(layer[scrollAreaContainer_thumbnailsBar_theme02].targetHeight, %2);
+		
+		
+		set(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].width, %1);
+		set(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].height, %2);
+		layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].updatepos();
+		
+		
+		mul(totalMarginX_thumbnailsBar_theme02, get(layer[scrollAreaContainer_thumbnailsBar_theme02].marginX), 2);
+		mul(totalMarginY_thumbnailsBar_theme02, get(layer[scrollAreaContainer_thumbnailsBar_theme02].marginY), 2);
+		
+			add(totalPluginWidth_thumbnailsBar_theme02, get(totalMarginX_thumbnailsBar_theme02), get(layer[scrollAreaContainer_thumbnailsBar_theme02].itemWidth));
+			
+			
+			
+			if(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].pixelwidth LT totalPluginWidth_thumbnailsBar_theme02,
+				set(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].width, get(totalPluginWidth_thumbnailsBar_theme02));
+			);
+		
+		layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].updatepos();
+		
+		
+		sub(containerWidth_thumbnailsBar_theme02, get(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].pixelwidth), get(totalMarginX_thumbnailsBar_theme02));
+		sub(containerHeight_thumbnailsBar_theme02, get(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].pixelheight), get(totalMarginY_thumbnailsBar_theme02));
+
+		
+		set(layer[scrollAreaContainer_thumbnailsBar_theme02].width, get(containerWidth_thumbnailsBar_theme02));
+		set(layer[scrollAreaContainer_thumbnailsBar_theme02].height, get(containerHeight_thumbnailsBar_theme02));
+		
+		set(scrollAreaSize_thumbnailsBar_theme02, 0);
+		
+		
+		mul(totalThumbsSpacer_thumbnailsBar_theme02, get(layer[scrollAreaContainer_thumbnailsBar_theme02].currentThumbsCount), get(layer[scrollAreaContainer_thumbnailsBar_theme02].thumbSpacer));
+		sub(totalThumbsSpacer_thumbnailsBar_theme02, get(layer[scrollAreaContainer_thumbnailsBar_theme02].thumbSpacer));
+		
+		set(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].visible, true);
+		
+		
+			mul(scrollAreaSize_thumbnailsBar_theme02, get(layer[scrollAreaContainer_thumbnailsBar_theme02].itemHeight), get(layer[scrollAreaContainer_thumbnailsBar_theme02].currentThumbsCount));
+			add(scrollAreaSize_thumbnailsBar_theme02, get(totalThumbsSpacer_thumbnailsBar_theme02));
+
+			set(layer[thumbsScrollArea_thumbnailsBar_theme02].width, get(layer[scrollAreaContainer_thumbnailsBar_theme02].itemWidth));
+			set(layer[thumbsScrollArea_thumbnailsBar_theme02].height, get(scrollAreaSize_thumbnailsBar_theme02));
+			
+			
+			if(layer[scrollAreaContainer_thumbnailsBar_theme02].height LT layer[scrollAreaContainer_thumbnailsBar_theme02].itemHeight,
+				set(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].visible, false);
+			,
+				verifyThumbnailsBarVisibility_thumbnailsBar_theme02();
+			);
+			
+		
+		
+		if(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].width LT 0,
+			set(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].visible, false);
+		);
+		
+	</action>
+	
+	
+	<action name="verifyThumbnailsBarVisibility_thumbnailsBar_theme02">
+		if(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].visible,
+			set(boolValue_thumbnailsBar_theme02, false);
+			
+			if (tour_displaythumbnails,
+				if (tour_displaycontrols,
+					set(boolValue_thumbnailsBar_theme02, true);
+				);
+			);
+			
+			set(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].visible, get(boolValue_thumbnailsBar_theme02));
+		);
+	</action>
+	
+	
+	<action name="createThumb_thumbnailsBar_theme02">
+
+			add(offsetFactor_thumbnailsBar_theme02, get(layer[scrollAreaContainer_thumbnailsBar_theme02].itemHeight), get(layer[scrollAreaContainer_thumbnailsBar_theme02].thumbSpacer));
+	
+			mul(thumbIncPos_thumbnailsBar_theme02, %3, get(offsetFactor_thumbnailsBar_theme02));
+			
+			
+			if(layer[thumbnailBorderSource_thumbnailsBar_theme02].url,
+				add(thumbIncPos_thumbnailsBar_theme02, get(layer[scrollAreaContainer_thumbnailsBar_theme02].offsetY));
+			);
+			
+		
+		mul(negativeOffsetX_thumbnailsBar_theme02, get(layer[scrollAreaContainer_thumbnailsBar_theme02].offsetX), -1);
+		mul(negativeOffsetY_thumbnailsBar_theme02, get(layer[scrollAreaContainer_thumbnailsBar_theme02].offsetY), -1);
+		
+		set(thumbName, 'thumb_');
+		txtadd(thumbName, %1);
+		txtadd(thumbName, '_thumbnailsBar_theme02');
+		addlayer(get(thumbName));
+
+		
+
+		set(thumbBorderName, 'thumbBorder_');
+		txtadd(thumbBorderName, %1);
+		txtadd(thumbBorderName, '_thumbnailsBar_theme02');
+		addlayer(get(thumbBorderName));
+		
+		
+		ifnot(layer[thumbnailBorderSource_thumbnailsBar_theme02].url,
+			set(layer[get(thumbBorderName)].type, container);
+			set(layer[get(thumbBorderName)].parent, thumbsScrollArea_thumbnailsBar_theme02);
+		);
+
+		
+		set(layer[get(thumbName)].onloaded, loadedImages_thumbnailsBar_theme02("thumbnail"););
+		set(layer[get(thumbName)].url, %2);
+		set(layer[get(thumbName)].keep, true);
+		set(layer[get(thumbName)].width, get(layer[scrollAreaContainer_thumbnailsBar_theme02].thumbWidth));
+		set(layer[get(thumbName)].height, get(layer[scrollAreaContainer_thumbnailsBar_theme02].thumbHeight));
+		set(layer[get(thumbName)].align, topleft);
+		
+		
+			set(layer[get(thumbName)].x, get(layer[scrollAreaContainer_thumbnailsBar_theme02].offsetX));
+		
+			if(layer[thumbnailBorderSource_thumbnailsBar_theme02].url,
+				set(layer[get(thumbName)].parent, thumbsScrollArea_thumbnailsBar_theme02);
+				set(layer[get(thumbName)].y, get(thumbIncPos_thumbnailsBar_theme02));
+			,
+				set(layer[get(thumbName)].parent, get(thumbBorderName));
+				set(layer[get(thumbName)].y, get(layer[scrollAreaContainer_thumbnailsBar_theme02].offsetY));
+				set(layer[get(thumbName)].onclick, resetMouseBehavior_thumbnailsBar_theme02(); mainloadscene(%1); delayedcall(0.1,highlightThumb_thumbnailsBar_theme02(%1)));
+			);
+			
+		
+		
+		set(layer[get(thumbBorderName)].keep, true);
+		set(layer[get(thumbBorderName)].width, get(layer[scrollAreaContainer_thumbnailsBar_theme02].itemWidth));
+		set(layer[get(thumbBorderName)].height, get(layer[scrollAreaContainer_thumbnailsBar_theme02].itemHeight));
+		set(layer[get(thumbBorderName)].align, topleft);
+		
+		if(layer[thumbnailBorderSource_thumbnailsBar_theme02].url,
+			set(layer[get(thumbBorderName)].url, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].url));
+			set(layer[get(thumbBorderName)].scale9grid, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].scale9grid));
+			set(layer[get(thumbBorderName)].parent, get(thumbName));
+			set(layer[get(thumbBorderName)].x, get(negativeOffsetX_thumbnailsBar_theme02));
+			set(layer[get(thumbBorderName)].y, get(negativeOffsetY_thumbnailsBar_theme02));
+			set(layer[get(thumbBorderName)].onclick, resetMouseBehavior_thumbnailsBar_theme02(); mainloadscene(%1); delayedcall(0.1,highlightThumb_thumbnailsBar_theme02(%1)));
+		,
+			
+				set(layer[get(thumbBorderName)].y, get(thumbIncPos_thumbnailsBar_theme02)); 
+				
+		);
+
+
+		
+		setupMouseBehavior_thumbnailsBar_theme02(%1, %4);
+		
+	</action>
+	
+	
+	
+	<action name="removeThumb_thumbnailsBar_theme02">
+		set(thumbName, 'thumb_');
+		txtadd(thumbName, %1);
+		txtadd(thumbName, '_thumbnailsBar_theme02');
+		removelayer(get(thumbName));
+		
+		set(thumbBorderName, 'thumbBorder_');
+		txtadd(thumbBorderName, %1);
+		txtadd(thumbBorderName, '_thumbnailsBar_theme02');
+		removelayer(get(thumbBorderName));
+
+
+	</action>
+	
+	
+	
+	<action name="setupArrows_thumbnailsBar_theme02">
+		
+		if(layer[scrollAreaContainer_thumbnailsBar_theme02].adjustToContent,
+			hideArrows_thumbnailsBar_theme02();
+		,
+			ifnot(device.touchdevice,
+				
+					if(layer[scrollAreaContainer_thumbnailsBar_theme02].height LT layer[thumbsScrollArea_thumbnailsBar_theme02].height,
+				
+					showArrows_thumbnailsBar_theme02();
+				,
+					hideArrows_thumbnailsBar_theme02();
+				);
+			,
+				hideArrows_thumbnailsBar_theme02();
+			);
+		);
+		
+		
+		if(%1,
+			scrollToCurrentThumb_thumbnailsBar_theme02();
+		);
+		
+		
+			
+			if(layer[scrollAreaContainer_thumbnailsBar_theme02].height LT layer[scrollAreaContainer_thumbnailsBar_theme02].itemHeight,
+				set(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].visible, false);
+			);
+	</action>
+	
+	
+	<action name="showArrows_thumbnailsBar_theme02">
+		
+		
+		
+		
+		set(layer[scrollPrevArrow_thumbnailsBar_theme02].visible, true);
+		set(layer[scrollNextArrow_thumbnailsBar_theme02].visible, true);
+		
+		
+		
+			
+			add(totalArrowSize_thumbnailsBar_theme02, get(layer[scrollPrevArrow_thumbnailsBar_theme02].height), get(layer[scrollNextArrow_thumbnailsBar_theme02].height));
+		
+			
+			sub(scrollAreaContainerSize_thumbnailsBar_theme02, get(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].pixelheight), get(totalArrowSize_thumbnailsBar_theme02));
+		
+			set(layer[scrollAreaContainer_thumbnailsBar_theme02].height, get(scrollAreaContainerSize_thumbnailsBar_theme02));
+		
+			set(layer[scrollAreaContainer_thumbnailsBar_theme02].y, get(layer[scrollPrevArrow_thumbnailsBar_theme02].height));
+			
+		
+		
+		set(layer[scrollPrevArrow_thumbnailsBar_theme02].onhover, scrollPrev_thumbnailsBar_theme02(););
+		set(layer[scrollNextArrow_thumbnailsBar_theme02].onhover, scrollNext_thumbnailsBar_theme02(););
+		
+		set(layer[scrollPrevArrow_thumbnailsBar_theme02].onclick, scrollPrev_thumbnailsBar_theme02(get(layer[scrollAreaContainer_thumbnailsBar_theme02].scrollSpeedAcceleration)););
+		set(layer[scrollNextArrow_thumbnailsBar_theme02].onclick, scrollNext_thumbnailsBar_theme02(get(layer[scrollAreaContainer_thumbnailsBar_theme02].scrollSpeedAcceleration)););
+		
+		
+		
+		
+		
+		set(layer[scrollPrevArrow_thumbnailsBar_theme02].onout, set(layer[scrollAreaContainer_thumbnailsBar_theme02].scrollSpeed, get(layer[scrollAreaContainer_thumbnailsBar_theme02].scrollSpeedInit)););
+		set(layer[scrollNextArrow_thumbnailsBar_theme02].onout, set(layer[scrollAreaContainer_thumbnailsBar_theme02].scrollSpeed, get(layer[scrollAreaContainer_thumbnailsBar_theme02].scrollSpeedInit)););
+		
+	</action>
+	
+	
+	
+	
+	<action name="hideArrows_thumbnailsBar_theme02">
+		
+		set(layer[scrollPrevArrow_thumbnailsBar_theme02].visible, false);
+		set(layer[scrollNextArrow_thumbnailsBar_theme02].visible, false);
+		
+		
+		
+			mul(totalMargin_thumbnailsBar_theme02, get(layer[scrollAreaContainer_thumbnailsBar_theme02].marginY), 2);
+			
+			sub(scrollAreaContainerSize_thumbnailsBar_theme02, get(layer[get(layer[scrollAreaContainer_thumbnailsBar_theme02].parent)].pixelheight), get(totalMargin_thumbnailsBar_theme02));
+			
+			set(layer[scrollAreaContainer_thumbnailsBar_theme02].height, get(scrollAreaContainerSize_thumbnailsBar_theme02));
+			set(layer[scrollAreaContainer_thumbnailsBar_theme02].y, get(layer[scrollAreaContainer_thumbnailsBar_theme02].marginY));
+			 
+			
+	</action>
+	
+	
+	<action name="scrollPrev_thumbnailsBar_theme02">
+		
+		
+		if(%1,
+			inc(layer[scrollAreaContainer_thumbnailsBar_theme02].scrollSpeed, %1);
+		);
+		
+		layer[thumbsScrollArea_thumbnailsBar_theme02].stopscrolling();
+		
+		set(scrollLimit_thumbnailsBar_theme02, 0);
+		
+		
+			
+				sub(scrollLimit_thumbnailsBar_theme02, get(layer[thumbsScrollArea_thumbnailsBar_theme02].height), get(layer[scrollAreaContainer_thumbnailsBar_theme02].height));
+				div(scrollLimit_thumbnailsBar_theme02, 2);
+			
+			add(layer[thumbsScrollArea_thumbnailsBar_theme02].y, get(layer[scrollAreaContainer_thumbnailsBar_theme02].scrollSpeed));
+			if(layer[thumbsScrollArea_thumbnailsBar_theme02].y GE scrollLimit_thumbnailsBar_theme02,
+				set(layer[thumbsScrollArea_thumbnailsBar_theme02].y, get(scrollLimit_thumbnailsBar_theme02));
+			);
+			
+		
+		if(layer[scrollAreaContainer_thumbnailsBar_theme02].scrollSpeed LT layer[scrollAreaContainer_thumbnailsBar_theme02].scrollSpeedMax,
+			inc(layer[scrollAreaContainer_thumbnailsBar_theme02].scrollSpeed);
+		);
+		
+	</action>
+	
+	
+	<action name="scrollNext_thumbnailsBar_theme02">
+		
+		
+		if(%1,
+			inc(layer[scrollAreaContainer_thumbnailsBar_theme02].scrollSpeed, %1);
+		);
+		
+		layer[thumbsScrollArea_thumbnailsBar_theme02].stopscrolling();
+		
+			
+			sub(scrollLimit_thumbnailsBar_theme02, get(layer[thumbsScrollArea_thumbnailsBar_theme02].height), get(layer[scrollAreaContainer_thumbnailsBar_theme02].height));
+			
+				div(scrollLimit_thumbnailsBar_theme02, 2);
+			mul(scrollLimit_thumbnailsBar_theme02, -1);
+			
+			sub(layer[thumbsScrollArea_thumbnailsBar_theme02].y, get(layer[scrollAreaContainer_thumbnailsBar_theme02].scrollSpeed));
+			if(layer[thumbsScrollArea_thumbnailsBar_theme02].y LE scrollLimit_thumbnailsBar_theme02,
+				set(layer[thumbsScrollArea_thumbnailsBar_theme02].y, get(scrollLimit_thumbnailsBar_theme02));
+			);
+		
+		if(layer[scrollAreaContainer_thumbnailsBar_theme02].scrollSpeed LT layer[scrollAreaContainer_thumbnailsBar_theme02].scrollSpeedMax,
+			inc(layer[scrollAreaContainer_thumbnailsBar_theme02].scrollSpeed);
+		);
+		
+	</action>
+	
+	
+	<action name="resetMouseBehavior_thumbnailsBar_theme02">
+	
+		
+		
+			for( set(j_thumbnailsBar_theme02, 0), j_thumbnailsBar_theme02 LT scene.count, inc(j_thumbnailsBar_theme02),
+				set(thumbBorderName, 'thumbBorder_');
+				txtadd(thumbBorderName, get(scene[get(j_thumbnailsBar_theme02)].name));
+				txtadd(thumbBorderName, '_thumbnailsBar_theme02');
+				
+				setupMouseBehavior_thumbnailsBar_theme02(get(scene[get(j_thumbnailsBar_theme02)].name), get(scene[get(j_thumbnailsBar_theme02)].titleid));
+			);
+		
+	</action>
+	
+	
+	<action name="setupMouseBehavior_thumbnailsBar_theme02">
+
+		set(thumbName, 'thumb_');
+		txtadd(thumbName, %1);
+		txtadd(thumbName, '_thumbnailsBar_theme02');
+		
+		set(thumbBorderName, 'thumbBorder_');
+		txtadd(thumbBorderName, %1);
+		txtadd(thumbBorderName, '_thumbnailsBar_theme02');
+		
+		if(layer[thumbnailBorderSource_thumbnailsBar_theme02].url,
+			set(layer[get(thumbBorderName)].crop, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].cropDefault));
+			set(layer[get(thumbBorderName)].onovercrop, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].cropHover));
+			set(layer[get(thumbBorderName)].ondowncrop, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].cropHover));
+			set(layer[get(thumbBorderName)].tooltip, %2);
+		,
+			set(layer[get(thumbBorderName)].bgcolor, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].borderColorDefault));
+			set(layer[get(thumbBorderName)].bgalpha, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].borderAlphaDefault));
+			
+			set(layer[get(thumbName)].onover, 
+				set(layer[get(parent)].bgcolor, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].borderColorHover));
+				set(layer[get(parent)].bgalpha, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].borderAlphaHover));
+			);
+			
+			set(layer[get(thumbName)].onout, 
+				set(layer[get(parent)].bgcolor, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].borderColorDefault));
+				set(layer[get(parent)].bgalpha, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].borderAlphaDefault));
+				
+			);
+		);
+	
+	</action>
+	
+	
+	<action name="highlightCurrentThumb_thumbnailsBar_theme02">
+			delayedcall(0.1,highlightThumb_thumbnailsBar_theme02(get(xml.scene)));
+	</action>
+	
+	
+	<action name="highlightThumb_thumbnailsBar_theme02">
+	
+		set(thumbBorderName, 'thumbBorder_');
+		txtadd(thumbBorderName, %1);
+		txtadd(thumbBorderName, '_thumbnailsBar_theme02');
+		
+		if(layer[thumbnailBorderSource_thumbnailsBar_theme02].url,
+			set(layer[get(thumbBorderName)].crop, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].cropSelected));
+			set(layer[get(thumbBorderName)].onovercrop, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].cropSelected));
+			set(layer[get(thumbBorderName)].ondowncrop, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].cropSelected));
+		,
+			set(thumbName, 'thumb_');
+			txtadd(thumbName, %1);
+			txtadd(thumbName, '_thumbnailsBar_theme02');
+			
+			set(layer[get(thumbBorderName)].bgcolor, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].borderColorSelected));
+			set(layer[get(thumbBorderName)].bgalpha, get(layer[thumbnailBorderSource_thumbnailsBar_theme02].borderAlphaSelected));
+			
+			set(layer[get(thumbName)].onover, "");
+			set(layer[get(thumbName)].onout, "");
+		);
+
+		scrollToThumb_thumbnailsBar_theme02(%1);
+	</action>
+	
+	
+	<action name="scrollToCurrentThumb_thumbnailsBar_theme02">
+			scrollToThumb_thumbnailsBar_theme02(get(xml.scene));
+	</action>
+	
+	
+	<action name="scrollToThumb_thumbnailsBar_theme02">
+		
+		set(thumbName, 'thumb_');
+		set(thumbBorderName, 'thumbBorder_');
+		
+		txtadd(thumbName, %1);
+		txtadd(thumbName, '_thumbnailsBar_theme02');
+		txtadd(thumbBorderName, %1);
+		txtadd(thumbBorderName, '_thumbnailsBar_theme02');
+
+			set(posY_thumbnailsBar_theme02, 0);
+			if(layer[thumbnailBorderSource_thumbnailsBar_theme02].url,
+				div(halfThumbHeight_thumbnailsBar_theme02, get(layer[get(thumbName)].height), 2);
+				ifnot(layer[scrollAreaContainer_thumbnailsBar_theme02].adjustToContent,
+					add(posY_thumbnailsBar_theme02, get(layer[get(thumbName)].y), get(halfThumbHeight_thumbnailsBar_theme02));
+				);
+				if(layer[thumbsScrollArea_thumbnailsBar_theme02].scrolltocenter,
+					layer[thumbsScrollArea_thumbnailsBar_theme02].scrolltocenter(0, get(posY_thumbnailsBar_theme02));
+				);
+			,
+				div(halfThumbHeight_thumbnailsBar_theme02, get(layer[get(thumbBorderName)].height), 2);
+				ifnot(layer[scrollAreaContainer_thumbnailsBar_theme02].adjustToContent,
+					add(posY_thumbnailsBar_theme02, get(layer[get(thumbBorderName)].y), get(halfThumbHeight_thumbnailsBar_theme02));
+				);
+				if(layer[thumbsScrollArea_thumbnailsBar_theme02].scrolltocenter,
+					layer[thumbsScrollArea_thumbnailsBar_theme02].scrolltocenter(0, get(posY_thumbnailsBar_theme02));
+				);
+			);
+		
+		
+	</action>
+	
+
+
+
+
+
+
+ 
+<include url="%FIRSTXML%/graphics/skinplus3.5.1/core.xml" />
+<action name="check_normal_hs">
+  if(%1,
+  for(set(hs_m,0), hs_m LT hotspot.count, inc(hs_m), if(hotspot[get(hs_m)].style == "IconHotspot_mark_1" || hotspot[get(hs_m)].style == "IconHotspot_mark_2" || hotspot[get(hs_m)].style == "IconHotspot_mark_3" || hotspot[get(hs_m)].style == "IconHotspot_mark_4" || hotspot[get(hs_m)].style == "IconHotspot_mark_5" || hotspot[get(hs_m)].style == "IconHotspot_mark_6" || hotspot[get(hs_m)].style == "IconHotspot_mark_7" || hotspot[get(hs_m)].style == "IconHotspot_mark_8" || hotspot[get(hs_m)].style == "IconHotspot_mark_8" || hotspot[get(hs_m)].style == "IconHotspot_mark_10", set(scenet_alt, get(hotspot[get(hs_m)].linktarget)); set(visit_alt, get(scene[get(scenet_alt)].seen));
+      create_check_alt(get(hs_m));
+      if(visit_alt,
+      txtadd(nos_alt, checkicon_alt,get(hs_m) );
+      set(layer[get(nos_alt)].visible,true);
+      set(layer[get(nos_alt)].alpha,1);
+        ););););
+  </action>
+
+
+<events name="langstart"
+keep="true"
+onxmlcomplete="if(lang !== null,
+set(tour_language, get(lang));
+events.dispatch(changetourlanguage);,
+set(tour_language, get(tour_language)););"
+/>
+
+
+<action name="create_check">
+addlayer(checkicon%1);
+set(layer[checkicon%1].width,45);
+set(layer[checkicon%1].height,prop);
+set(layer[checkicon%1].type,image);
+set(layer[checkicon%1].url, '%FIRSTXML%/graphics/skinplus3.5.1/');
+set(layer[checkicon%1].enable,true);
+set(layer[checkicon%1].align,bottomright);
+set(layer[checkicon%1].edge,bottomright);
+set(layer[checkicon%1].visible,false);
+set(layer[checkicon%1].children,true);
+set(layer[checkicon%1].scalechildren,true);
+set(layer[checkicon%1].alpha,0);
+set(layer[checkicon%1].capture, false);
+set(layer[checkicon%1].x, -10);
+set(layer[checkicon%1].y, -10);
+set(layer[checkicon%1].parent, hotspot[%1]);
+</action>
+
+<action name="create_check_alt">
+addlayer(checkicon_alt%1);
+set(layer[checkicon_alt%1].width,45);
+set(layer[checkicon_alt%1].height,prop);
+set(layer[checkicon_alt%1].type,image);
+set(layer[checkicon_alt%1].url, '%FIRSTXML%/graphics/skinplus3.5.1/');
+set(layer[checkicon_alt%1].enable,true);
+set(layer[checkicon_alt%1].align,bottomright);
+set(layer[checkicon_alt%1].edge,bottomright);
+set(layer[checkicon_alt%1].visible,false);
+set(layer[checkicon_alt%1].children,true);
+set(layer[checkicon_alt%1].scalechildren,true);
+set(layer[checkicon_alt%1].alpha,0);
+set(layer[checkicon_alt%1].capture, false);
+set(layer[checkicon_alt%1].x, -10);
+set(layer[checkicon_alt%1].y, -10);
+set(layer[checkicon_alt%1].parent, hotspot[%1]);
+</action>
+
+
+
+<events name="SkinPlushotspot_mark" keep="true"
+onxmlcomplete="check_normal_hs();"
+onnewpano="check_normal_hs();"
+/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<krpano SkinPlusbarbuilt="false" SkinPlusbackgroundwidthwhenclosed="0" SkinPlusbackgroundwidthwhenopened="0" SkinPlusIsOpened="false" />
+
+<k_setting
+    speed="2"
+    button_offset=""
+    margin_flag_ico="100"
+    flag_lang_1=""
+    flag_lang_2=""
+    flag_lang_3=""
+    flag_lang_4=""
+    flag_lang_5=""
+    flag_lang_6=""
+    flag_lang_7=""
+    flag_lang_8=""
+    flag_lang_9=""
+    flag_lang_10=""
+    context_menu_bool="true"
+    plugname="SkinPlus"
+    pluginDirectory="graphics/skinplus3.5.1"
+    contextlogofile="logo.jpg"
+    context_url="https://www.corona1702.com"
+    code=""
+    range_value="90"
+    alpharange="true"
+    full="true"
+    scalemobile="1"
+    scaletablet="1"
+/>
+
+
+
+
+
+
+<events name="statiframecontrol"
+ontourstart="iframe();"
+keep="true"
+
+/>
+
+<events name="mobileorientation_events" devices="mobile" keep="true"
+onresize="mobileorientation_portrait_mode_check();"
+onPanoStart="updatetext_screen();mobileorientation_portrait_mode_check();"
+onload="getmessage(layer[text_rotate].html,SkinPluscustomtitle);escape(layer[text_rotate].html);"
+/>
+
+
+
+
+
+<action name="updatetext_screen">
+getmessage(SkinPlusmytitle ,SkinPluscustomtitle);
+escape(SkinPlusmytitle);
+set(layer[text_rotate].html, get(SkinPlusmytitle));
+</action>
+
+<events name="actionscreen"
+keep="true"
+changetourlanguage="updatetext_screen();"
+/>
+
+
+
+<action name="screenrotate">
+
+    addlayer(buttone);
+    set(layer[buttone].width,100%);
+    set(layer[buttone].height,100%);
+    set(layer[buttone].type,container);
+    set(layer[buttone].enable,true);
+    set(layer[buttone].align,center);
+    set(layer[buttone].visible,true);
+    set(layer[buttone].children,true);
+    set(layer[buttone].keep, true);
+    set(layer[buttone].capture, false);
+    set(layer[buttone].x, 0);
+    set(layer[buttone].y, 0);
+    set(layer[buttone].bgcolor, 0x961217);
+    set(layer[buttone].bgalpha, 1);
+    set(layer[buttone].bgshadow, false);
+    set(layer[buttone].bgcapture, true);
+    set(layer[buttone].zorder,110);
+    addlayer(image_rotate);
+    set(layer[image_rotate].url, '%FIRSTXML%/graphics/skinplus3.5.1/rotate_device.png');
+    set(layer[image_rotate].width,50%);
+    set(layer[image_rotate].height,prop);
+    set(layer[image_rotate].type,image);
+    set(layer[image_rotate].enable,true);
+    set(layer[image_rotate].align,center);
+    set(layer[image_rotate].visible,true);
+    set(layer[image_rotate].children,true);
+    set(layer[image_rotate].scale,0);
+    set(layer[image_rotate].alpha,0);
+    set(layer[image_rotate].rotate,-90);
+    set(layer[image_rotate].keep, true);
+    set(layer[image_rotate].capture, false);
+    set(layer[image_rotate].x, 0);
+    set(layer[image_rotate].y, 10);
+    set(layer[image_rotate].bgshadow, false);
+    set(layer[image_rotate].bgcapture, true);
+    set(layer[image_rotate].zorder,110);
+</action>
+
+
+<action name="fxlogo">
+delayedcall(0.2,tween(layer[image_rotate].scale,1,0.8,easeOutBack));
+delayedcall(0.2,tween(layer[logo_rotate].scale,1,0.8,easeOutBack));
+delayedcall(0.2,tween(layer[image_rotate].alpha,1,0.8,easeOutBack));
+delayedcall(0.2,tween(layer[logo_rotate].alpha,1,0.8,easeOutBack));
+delayedcall(0.2,tween(layer[image_rotate].rotate,0,0.8,easeOutBack));
+</action>
+
+
+
+<layer name="text_rotate"
+       type="text"
+       align="bottom" x="0" y="10"
+       devices="mobile"
+       visible="false"
+       keep="true"
+       html=""
+       css="font-family:Baskerville; font-size:14px; color:#149b8e;text-align:center;"
+       vcenter="false"
+       padding="20"
+       width="300"
+       height="120"
+       wordwrap="true"
+       bg="true"
+       bgcolor="0xFFFFFF"
+       bgalpha="0.0"
+       bgborder="0"
+       bgroundedge="0"
+       bgshadow=""
+       txtshadow=""
+       mergedalpha="true"
+       interactivecontent="false"
+       onautosized="true"
+       zorder="120"
+/>
+
+
+
+
+
+
+<events name="SkinPluscheck_sixe"
+onresize="SkinPlussize_menu();"
+onxmlcomplete="SkinPlussize_menu();"
+showtourcontrols="SkinPlussize_menu();"
+keep="true"
+/>
+
+<action name="SkinPlussize_menu" devices="desktop|tablet|mobile">
+if (stagewidth LT 800,
+    tween(layer[SkinPlusLanguage_bg].scale, 0.6,0.1);
+
+    tween(layer[SkinPlusLanguage_bg].scale, 0.5,0.1);
+    );
+
+    set(menu_w, get(layer[SkinPlus_menu_bg].width));
+    set(menu_h, get(layer[SkinPlus_menu_bg].height));
+    if ( menu_w GE stagewidth || stagewidth LE 800,
+    tween(layer[SkinPlus_menu_bg].scale, 0.6,0.1);
+
+    set(hval,65);
+    dec(hval, 4);
+    tween(layer[SkinPlus_footer].height, get(hval),0.1);,
+    tween(layer[SkinPlus_menu_bg].scale, 1,0.2);
+    tween(layer[SkinPlus_footer].height, 65,0.2);
+    );
+    
+</action>
+
+
+
+
+<events name="SkinPlusevents"
+    onxmlcomplete="" 
+    openvideointerface="SkinPlusHideControlBar();"
+    closevideointerface="SkinPlusShowControlBar();" 
+    keep="true"
+/>
+
+<events name="SkinPlusLanguage_event"
+    onTourStart="SkinPluslangg();"
+    changetourlanguage="SkinPluslangg();"
+    keep="true"
+/>
+
+
+
+
+
+
+<action name="SkinPluslangg">
+set(language_var, get(tour_language));
+
+
+if(device.touch,
+set(layer[SkinPlushelpScreenFg].url, '%FIRSTXML%/graphics/skinplus3.5.1/help_screen_fg_mb.png');
+,
+set(layer[SkinPlushelpScreenFg].url, '%FIRSTXML%/graphics/skinplus3.5.1/help_screen_fg.png');
+);
+
+</action>
+
+
+<events name="SkinPlushideThumb_start"
+keep="true"
+onTourStart="hideTourThumbnails();
+"
+/>
+
+ 
+
+<style name="Iconskinplus"
+     url=""
+     visible="false"
+
+     autoalpha="false"
+
+
+     enabled="true"
+     edge="center"
+     align="center"
+      zoom="true"
+    crop="100|0|200|200"
+    onloaded.desktop="if(scene[get(xml.scene)].planar,if(zoom,set(zoom, false);););SkinPlussett_css_id('SkinPluspluto');SkinPlusmaker();"
+    onloaded.mobile="SkinPlussett_css_id('SkinPlusplutom');SkinPlusmakermobile();showPermanentTooltip2('t');if(scene[get(xml.scene)].planar,if(zoom,set(zoom, false);););"
+    onloaded.tablet="showPermanentTooltip2('t');if(scene[get(xml.scene)].planar,if(zoom,set(zoom, false);););SkinPlussett_css_id('SkinPlusplutom');SkinPlusmakermobile();"
+    onhover="SkinPlusover();showTooltip('plugin',SkinPlusspotTooltipStyle);"
+    onover="SkinPlusover();"
+    onout="SkinPlusonout();"
+    width="60"
+    height="60"
+    scale.mobile="1"
+    scale.tablet="1"
+    renderer="css3d"
+    distorted="false"
+ />
+
+<action name="showPermanentTooltip2">
+	if (tooltip !== null,
+		getmessage(currentTooltipText, get(tooltip));
+		ifnot (currentTooltipText == "",
+		txtadd(permanentTooltipForSpot, get(tooltip), '_permanent');
+		set(activateUsePermanentTooltip, false);
+		if(%1 == "std",
+		if(device.desktop,
+		set(activateUsePermanentTooltip, true);
+		);
+        ,
+		if(%1 == "t",
+		if(device.tablet OR device.mobile,
+		set(activateUsePermanentTooltip, true);
+		);
+		,
+  	     set(activateUsePermanentTooltip, true);
+		);
+		);
+		if(activateUsePermanentTooltip,
+				addlayer(get(permanentTooltipForSpot));
+				txtadd(layer[get(permanentTooltipForSpot)].parent, 'hotspot[', get(name), ']');
+				if(rotate,
+					sub(newRotate, 0, get(rotate));
+					if(rotate GE 0 AND rotate LT 45 OR rotate GE 315 AND rotate LT 360,
+						set(layer[get(permanentTooltipForSpot)].rotate,get(newRotate));
+						if (%2 == null,
+							set(layer[get(permanentTooltipForSpot)].align,bottom);
+						,
+							set(layer[get(permanentTooltipForSpot)].align,top);
+						);
+					,
+						if(rotate GE 45 AND rotate LT 135,
+							set(layer[get(permanentTooltipForSpot)].rotate,get(newRotate));
+							if (%2 == null,
+								set(layer[get(permanentTooltipForSpot)].align,right);
+							,
+								set(layer[get(permanentTooltipForSpot)].align,left);
+							);
+						,
+							if(rotate GE 135 AND rotate LT 225,
+								set(layer[get(permanentTooltipForSpot)].rotate,get(newRotate));
+								if (%2 == null,
+									set(layer[get(permanentTooltipForSpot)].align,top);
+								,
+									set(layer[get(permanentTooltipForSpot)].align,bottom);
+								);
+							,
+								set(layer[get(permanentTooltipForSpot)].rotate,get(newRotate));
+								if (%2 == null,
+									set(layer[get(permanentTooltipForSpot)].align,left);
+								,
+									set(layer[get(permanentTooltipForSpot)].align,right);
+								);
+							);
+						);
+					);
+				,
+					if (%2 == null,
+						set(layer[get(permanentTooltipForSpot)].align,bottom);
+					,
+						set(layer[get(permanentTooltipForSpot)].align,top);
+					);
+				);
+				if (%2 == null,
+					set(layer[get(permanentTooltipForSpot)].edge,top);
+				,
+					set(layer[get(permanentTooltipForSpot)].edge,bottom);
+				);
+				set(layer[get(permanentTooltipForSpot)].enabled,false);
+				set(layer[get(permanentTooltipForSpot)].capture,false);
+				set(layer[get(permanentTooltipForSpot)].visible, true);
+				set(layer[get(permanentTooltipForSpot)].tag,"tooltip");
+
+				set(layer[get(permanentTooltipForSpot)].type,text);
+				set(layer[get(permanentTooltipForSpot)].bg,false);
+				set(layer[get(permanentTooltipForSpot)].bgborder,0);
+				set(layer[get(permanentTooltipForSpot)].css,'color:#ffffff;font-family:;font-size:px;text-align:center;');
+				set(layer[get(permanentTooltipForSpot)].interactivecontent, false);
+				set(layer[get(permanentTooltipForSpot)].zorder,3);
+				set(layer[get(permanentTooltipForSpot)].padding,0);
+                set(layer[get(permanentTooltipForSpot)].oy,22);
+                set(layer[get(permanentTooltipForSpot)].txtshadow,'1.0 1.0 8.0 0x000000 1');
+
+
+			);
+		);
+	);
+</action>
+
+
+
+
+
+<events name="SkinPlushothot" keep="true"
+onxmlcomplete="skinplus_go();"
+onnewpano="skinplus_go();"  />
+
+
+<action name="SkinPlussett_css_id" type="Javascript">
+  caller.sprite.className = args[1];
+</action>
+
+<action name="SkinPlusmaker" type="Javascript">
+$( ".SkinPluspluto" ).css({"-webkit-box-shadow":" 0px 0px 0px 0px #ffffff","-moz-box-shadow":" 0px 0px 0px 0px #ffffff","box-shadow":" 0px 0px 0px 0px #ffffff ","margin-botton":"40px",
+"border":"7px solid #ffffff","border-radius":"360px 360px 360px 360px"});
+</action>
+
+<action name="SkinPlusmakermobile" type="Javascript">
+
+$( ".SkinPlusplutom" ).css({"-webkit-box-shadow":" 0px 0px 0px 2px #a54024","-moz-box-shadow":" 0px 0px 0px 2px #a54024","box-shadow":" 0px 0px 0px 2px #a54024 ","margin-botton":"40px","border":"3px solid #ffffff","border-radius":"360px 360px 360px 360px"});
+</action>
+
+<action name="SkinPlusover">
+
+SkinPlusupHotUp();
+
+
+</action>
+
+<action name="SkinPlusonout">
+hideTooltip();
+SkinPlusupHotDown();
+
+</action>
+
+
+<action name="SkinPluspopHotUp">
+tween(scale,1.5,0.5,easeInOutQuint);
+</action>
+
+<action name="SkinPluspopHotDown">
+tween(scale,get(distance2),0.3,easeInOutQuint);
+</action>
+
+<action name="SkinPlusupHotUp">
+	tween(alpha,0,0.1,easeInOutQuint);
+    tween(scale,2,0.1,easeInOutQuint);
+</action>
+
+
+<action name="SkinPlusupHotDown">
+    tween(scale,1,0.3,easeInOutQuint);
+    tween(alpha,1,0.3,easeInOutQuint);
+
+</action>
+<action name="SkinPlusHideControlBar">
+	set(layer[SkinPlus_menu_bg].visible, false);
+</action>
+<action name="SkinPlusShowControlBar">
+	set(layer[SkinPlus_menu_bg].visible, true);
+</action>
+<action name="SkinPlusautoide">
+  delayedcall (autoclose, 10.0, SkinPlushideMenuControls();set(autohidev,true);hideTourControls();
+);
+
+</action>
+
+<action name="buildMenuBar">
+    ifnot (SkinPlusbarbuilt, SkinPlusbuildMenu(); set(SkinPlusbarbuilt, true););
+</action>
+
+
+  <style name="SkinPlus_btn_style"
+         keep="true"
+
+
+         edge="right"
+         align="right"
+
+         x="0" y="0"
+
+
+         width="60" height="60"
+
+         crop="0|0|60|60"
+         onovercrop="0|60|60|60"
+         ondowncrop="0|120|60|60"
+
+
+
+
+         onhover="showTooltip('plugin', SkinPlusmenuTooltipStyle, bottom);"
+         onout="hideTooltip();"
+
+
+
+
+         />
+
+ <style name="SkinPlus_btn_style_icons"
+         keep="true"
+
+
+         edge="right"
+         align="right"
+
+         x="0" y="0"
+
+
+         width="60" height="60"
+
+
+
+
+
+
+         onhover="showTooltip('plugin', SkinPlusmenuTooltipStyle, bottom);"
+         onout="tween(alpha,1,0.5);hideTooltip();"
+
+
+
+
+         />
+
+
+ <style name="SkinPlus_btnf_style"
+        keep="true"
+        edge="right"
+        align="right"
+        x="0" y="0"
+        width="60" height="prop"
+        scale="0.8"
+        onover=""
+
+        onhover="showTooltip('plugin', SkinPlusmenuTooltipStyle, bottom);"
+        onout="hideTooltip();"
+        />
+
+  <style name="SkinPlus_style"
+             keep="true"
+             onhover="showTooltip('plugin', SkinPlusmenuTooltipStyle);"
+             onout="hideTooltip();"
+/>
+
+<style name="SkinPlus_style_lang"
+     keep="true"
+     onover="set(alpha, 0.8);"
+     onout="set(alpha, 1); hideTooltip();"
+     onhover="showTooltip('plugin', SkinPlusmenuTooltipStyle);"
+/>
+
+<style name="SkinPlus_btnf_style_float"
+       keep="true"
+
+       scale="0.8"
+       onover=""
+
+
+
+       onhover="showTooltip('plugin', SkinPlusmenuTooltipStyle, bottom);"
+       onout="hideTooltip();"
+
+
+
+
+             width="100"
+             height="prop"
+
+       />
+ <style name="SkinPlus_style"
+            keep="true"
+            onhover="showTooltip('plugin', SkinPlusmenuTooltipStyle);"
+            onout="hideTooltip();"
+/>
+
+
+
+  <style name="SkinPlus_btn_style_off"
+         keep="true"
+         edge="right"
+         align="right"
+
+         x="0" y="0"
+         width="60" height="60"
+         onhover="showTooltip('plugin', SkinPlusmenuTooltipStyle, bottom);"
+         onout="hideTooltip();"
+         />
+
+<layer name="SkinPlus_footer"
+         keep="true"
+		 type="container"
+         bgcolor="0x041c34"
+         bgalpha="0.7000076295109483"
+         x="0"
+         y="0"
+         enabled="false"
+		 visible="false"
+		 align="bottom"
+		 edge="bottom"
+		 zorder="2"
+         height="65"
+         bgshadow="0 -0 10 0x846146 1"
+         width="100%"
+          />
+
+
+
+
+<action name="SkinPlusmlOnClick">getmessage(urltoopen,SkinPlusmlogoclick171256openurlwebsiteurl);openurl(get(urltoopen),_blank);
+
+
+</action>
+
+
+
+
+<events name="SkinPlus_footerevents"
+    onTourStart=""
+    keep="true" />
+
+
+<action name="SkinPlushidefooter">
+    tween(layer[SkinPlus_footer].y, -65, 0.2);
+</action>
+
+<action name="setTourLanguage">
+  if (%1 == null,
+    trace("CHANGE TOUR LANGUAGE : NO LANGUAGE SET");
+   ,
+    set(tour_language, %1);
+
+    events.dispatch(changetourlanguage);
+  );
+</action>
+
+
+
+
+<action name="SkinPlusshowfooter">
+
+if (SkinPlusIsOpened,
+
+	set(layer[SkinPlus_footer].visible, true);
+
+
+    tween(layer[SkinPlus_footer].y, 0, 0.1);
+    set(layer[SkinPlus_footer].visible, true);
+    ,
+    SkinPlushidefooter();
+
+    );
+</action>
+
+<layer name="SkinPlus_menu_bg"
+          keep="true"
+          type="container"
+          zorder="3"
+          width="60"
+          height="60"
+          align="bottom"
+          x="5" y="5"
+          maskchildren="false"
+          rotate="0"
+          visible="false"
+          scalechildren="true"
+
+
+
+
+    >
+
+
+<layer name="SkinPlusbtn_hide_hotspots"
+
+
+            url="%FIRSTXML%/graphics/skinplus3.5.1/btn_hide_show_hotspots.png"
+            style="SkinPlus_btn_style"
+
+
+            onclick="hideHotspots();
+"
+            tooltip="SkinPlushideSpotsTip"
+            visible="false"
+            devices="desktop|tablet|mobile"
+            />
+
+
+<layer name="SkinPlusbtn_show_hotspots"
+
+            url="%FIRSTXML%/graphics/skinplus3.5.1/btn_hide_show_hotspots.png"
+            style="SkinPlus_btn_style"
+
+
+            onclick="showHotspots();
+"
+            tooltip="SkinPlusshowSpotsTip"
+            visible="false"
+            devices="desktop|tablet|mobile"
+            />
+
+<layer name="SkinPlusbtn_home"
+
+
+
+url="%FIRSTXML%/graphics/skinplus3.5.1/btn_home.png"
+style="SkinPlus_btn_style"
+
+
+           onclick="SkinPlusbtn_home_action();"
+           visible="false"
+           tooltip="SkinPlushomeTip"
+           devices="desktop|tablet|mobile"
+           />
+
+
+
+
+
+<layer name="SkinPlusbtn_prev_pano"
+
+
+
+    url="%FIRSTXML%/graphics/skinplus3.5.1/btn_previous_scene.png"
+    style="SkinPlus_btn_style"
+
+
+
+
+            onclick="loadPreviousScene();
+"
+
+            tooltip="SkinPlusprevSceneTip"
+            visible="false"
+            devices="desktop|tablet|mobile"
+
+            />
+<layer name="SkinPlusbtn_next_pano"
+
+
+
+
+url="%FIRSTXML%/graphics/skinplus3.5.1/btn_next_scene.png"
+style="SkinPlus_btn_style"
+
+
+
+
+            onclick=" loadNextScene();
+"
+
+            tooltip="SkinPlusnextSceneTip"
+            visible="false"
+            devices="desktop|tablet|mobile"
+            />
+<layer name="SkinPlusbtn_hide_thumbnails"
+
+
+
+url="%FIRSTXML%/graphics/skinplus3.5.1/btn_hide_thumbnails.png"
+style="SkinPlus_btn_style"
+
+
+
+
+          onclick="hideTourThumbnails();
+"
+          tooltip="SkinPlushideThumbnailsTip"
+          visible="false"
+          />
+<layer name="SkinPlusbtn_show_thumbnails"
+
+
+
+
+url="%FIRSTXML%/graphics/skinplus3.5.1/btn_show_thumbnails.png"
+style="SkinPlus_btn_style"
+
+
+
+          onclick="showTourThumbnails();
+"
+          tooltip="SkinPlusshowThumbnailsTip"
+          visible="false"
+          devices="desktop|tablet|mobile"
+          />
+
+
+
+
+
+
+<layer name="SkinPlusbtn_shotp"
+
+
+
+url="%FIRSTXML%/graphics/skinplus3.5.1/btn_shotp.png"
+style="SkinPlus_btn_style"
+
+
+            onclick="makescreenshot_o();"
+
+            visible="false"
+            devices="desktop|tablet|mobile"
+            tooltip="SkinPlusshotpTip"
+            />
+
+
+
+
+
+
+
+<layer name="SkinPlusbtn_openfs"
+
+
+url="%FIRSTXML%/graphics/skinplus3.5.1/btn_enter_fs.png"
+style="SkinPlus_btn_style"
+
+
+
+
+            onclick="enterFullscreen();
+ "
+
+
+            visible="false"
+            devices="fullscreensupport"
+            tooltip="SkinPlusopenFsTip"
+            />
+
+<layer name="SkinPlusbtn_closefs"
+
+
+
+url="%FIRSTXML%/graphics/skinplus3.5.1/btn_close_fs.png"
+style="SkinPlus_btn_style"
+
+
+
+            onclick="exitFullscreen();
+ "
+
+
+            visible="false"
+            devices="fullscreensupport"
+            tooltip="SkinPluscloseFsTip"
+            />
+
+<layer name="SkinPlusbtn_autorotate_on"
+
+
+
+url="%FIRSTXML%/graphics/skinplus3.5.1/btn_start_autorotation.png"
+style="SkinPlus_btn_style"
+
+
+
+
+            onclick="startautorotation();
+"
+
+            visible="false"
+            devices="desktop|tablet|mobile"
+            tooltip="SkinPlusautorotateOnTip"
+/>
+
+<layer name="SkinPlusbtn_autorotate_off"
+
+
+url="%FIRSTXML%/graphics/skinplus3.5.1/btn_stop_autorotation.png"
+style="SkinPlus_btn_style"
+
+
+            onclick="stopautorotation();
+ "
+
+            visible="false"
+            devices="desktop|tablet|mobile"
+
+            tooltip="SkinPlusautorotateOffTip"
+/>
+
+
+<layer name="SkinPlusbtn_autotour_on"
+
+
+
+
+url="%FIRSTXML%/graphics/skinplus3.5.1/btn_start_automatic_tour.png"
+style="SkinPlus_btn_style"
+
+
+
+            onclick="startautotour();
+ "
+
+
+            visible="false"
+            tooltip="SkinPlusautotourOnTip"
+            devices="desktop|tablet|mobile"
+            />
+<layer name="SkinPlusbtn_autotour_off"
+
+
+
+url="%FIRSTXML%/graphics/skinplus3.5.1/btn_stop_automatic_tour.png"
+style="SkinPlus_btn_style"
+
+
+
+            onclick="stopautotour();
+"
+
+            visible="false"
+            devices="desktop|tablet|mobile"
+            tooltip="SkinPlusautotourOffTip"
+            />
+
+
+<layer name="SkinPlusbtn_display_help"
+
+
+url="%FIRSTXML%/graphics/skinplus3.5.1/btn_help.png"
+style="SkinPlus_btn_style"
+
+
+            onclick="SkinPluslangg(); SkinPlusdisplayHelp(); "
+
+            visible="false"
+			devices="desktop|tablet|mobile"
+            tooltip="SkinPlusdisplayHelpTip"
+            />
+
+
+
+<layer name="SkinPlusbtn_close_help"
+
+
+
+url="%FIRSTXML%/graphics/skinplus3.5.1/btn_help.png"
+style="SkinPlus_btn_style"
+
+
+            onclick="SkinPluscloseHelp();"
+
+            visible="false"
+            devices="desktop|tablet|mobile"
+            tooltip="SkinPlushideHelpTip"
+            />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<layer name="SkinPlusbtn_hidecontrols"
+
+
+
+            url="%FIRSTXML%/graphics/skinplus3.5.1/btn_hide_controls.png"
+            style="SkinPlus_btn_style"
+
+
+
+
+           onclick="SkinPlussize_menu();stopdelayedcall(autoclose);hideTourControls();
+"
+           visible="false"
+           tooltip="SkinPlushideControlsTip"
+           />
+<layer name="SkinPlusbtn_showcontrols"
+
+
+
+            url="%FIRSTXML%/graphics/skinplus3.5.1/btn_show_controls.png"
+            style="SkinPlus_btn_style"
+
+
+
+
+           onclick="SkinPlussize_menu();showTourControls();
+ "
+           tooltip="SkinPlusdisplayControlsTip"
+           visible="false"
+           />
+ </layer>
+
+
+<action name="SkinPlusbtn_home_action">
+      hideTooltip();lookto(get(panoview.h),get(panoview.v),get(panoview.fov),smooth(100,20,50));
+</action>
+
+
+
+<events name="SkinPlushideshowthumbnailsevent"
+		hidetourthumbnails="SkinPlusupdateHideShowThumbnailsButtons();"
+		showtourthumbnails="SkinPlusupdateHideShowThumbnailsButtons();"
+		keep="true" />
+<action name="SkinPlusHideHideShowThumbnailsButtons">
+		set(layer[SkinPlusbtn_show_thumbnails].visible, false);
+		set(layer[SkinPlusbtn_hide_thumbnails].visible, false);
+</action>
+<action name="SkinPlusShowHideShowThumbnailsButtons">
+		if (tour_displaythumbnails,
+			set(layer[SkinPlusbtn_hide_thumbnails].visible, true);
+			set(layer[SkinPlusbtn_show_thumbnails].visible, false);
+		,
+			set(layer[SkinPlusbtn_show_thumbnails].visible, true);
+			set(layer[SkinPlusbtn_hide_thumbnails].visible, false);
+		);
+</action>
+<action name="SkinPlusupdateHideShowThumbnailsButtons">
+		if (tour_displaycontrols,
+			SkinPlusShowHideShowThumbnailsButtons();
+		,
+			SkinPlusHideHideShowThumbnailsButtons();
+		);
+</action>
+
+
+
+<events name="SkinPlushideshowcontrolsevent"
+		ondoubleclick="swap();"
+		keep="true" />
+<action name="Swap">
+
+if(SkinPlusIsOpened,
+SkinPlushideMenuControls();hideTourControls();
+
+,
+
+SkinPlusshowMenuControls();showTourControls();
+
+
+);
+
+</action>
+
+
+<events name="SkinPlushideshowcontrolsevent"
+	hidetourcontrols="SkinPlushideMenuControls();"
+	showtourcontrols="SkinPlusshowMenuControls();"
+	keep="true" />
+
+
+<action name="SkinPlushideMenuControls">
+
+set(SkinPlusIsOpened, false);
+
+set(layer[SkinPlusbtn_hidecontrols].visible, false);
+set(layer[SkinPlusbtn_showcontrols].visible, true);
+if (scene.count GT 1,
+set(layer[SkinPlusbtn_next_pano].visible, false);
+set(layer[SkinPlusbtn_prev_pano].visible, false); ); 
+set(layer[SkinPlusbtn_shotp].visible, false); 
+set(layer[SkinPlusbtn_lang_off].visible, false);
+set(layer[SkinPlusbtn_lang].visible, false);
+set(layer[SkinPlusbtn_home].visible, false);
+SkinPlusupdateFullscreenButtons(); 
+set(layer[SkinPlusbtn_display_help].visible, false);
+SkinPlusupdateAutorotationButtons(); 
+SkinPlusupdateAutotourButtons(); 
+SkinPlusupdateHideShowHotspotsButtons(); 
+SkinPlusupdateHideShowThumbnailsButtons();  
+set(layer[SkinPlus_menu_bg].width, get(SkinPlusbackgroundwidthwhenclosed));
+set(layer[SkinPlus_menu_bg].visible, true);
+SkinPlushidefooter();
+</action>
+
+<action name="SkinPlusshowMenuControls">
+set(SkinPlusIsOpened, true);
+SkinPlusshowfooter();
+SkinPlusautoide();
+set(layer[SkinPlusbtn_home].visible, true);
+set(layer[SkinPlusbtn_hidecontrols].visible, true);
+set(layer[SkinPlusbtn_showcontrols].visible, false);
+set(layer[SkinPlus_menu_bg].visible, true);
+if (scene.count GT 1,
+set(layer[SkinPlusbtn_next_pano].visible, true);
+set(layer[SkinPlusbtn_prev_pano].visible, true););
+
+set(layer[SkinPlusbtn_share].visible, true);
+set(layer[SkinPlusbtn_search].visible, true);
+set(layer[SkinPlusbtn_shotp].visible, true);
+set(layer[SkinPlusbtn_menu].visible, true);
+set(layer[SkinPlusbtn_gallery].visible, true);
+set(layer[SkinPlusbtn_pdf].visible, true);
+set(layer[SkinPlusbtn_web].visible, true);
+set(layer[SkinPlusbtn_lang_off].visible, false);
+set(layer[SkinPlusbtn_lang].visible, true);
+
+SkinPlusupdateFullscreenButtons();
+SkinPlusupdateHelpButtons();
+
+SkinPlusupdateAutorotationButtons();
+SkinPlusupdateAutotourButtons();
+
+
+
+
+
+SkinPlusupdateHideShowHotspotsButtons();
+
+
+set(layer[SkinPlusbtn_display_help].visible, true); 
+
+SkinPlusupdateHideShowThumbnailsButtons();
+
+
+set(layer[SkinPlus_menu_bg].width, get(SkinPlusbackgroundwidthwhenopened));
+
+
+</action>
+
+<layer name="SkinPlushelpScreenFg"
+        align="buttom"
+        keep="true"
+        onclick="SkinPluscloseHelp();"
+        visible="false"
+        rotate="0"
+        y="100%"
+        displayed="false"
+
+        width="45%"
+        height="prop"
+        zorder="0"
+        scale.mobile="1"
+        scale.tablet="1"
+/>
+
+
+
+<action name="SkinPlusdisplayHelp">
+    set(layer[SkinPlushelpScreenFg].displayed,true);
+    SkinPluslangg();
+    set(layer[SkinPlushelpScreenBg].visible,true);
+    set(layer[SkinPlushelpScreenFg].visible,true);
+    tween(layer[SkinPlushelpScreenFg].y,0, 1, );
+        delayedcall(0.5, set(layer[SkinPlushelpScreenFg].zorder,99););
+    tween(layer[SkinPlushelpScreenBg].y,0, 1);
+    SkinPlusupdateHelpButtons();
+
+</action>
+
+<action name="SkinPluscloseHelp">
+    set(layer[SkinPlushelpScreenFg].zorder,0);
+    set(layer[SkinPlushelpScreenFg].displayed,false);
+    tween(layer[SkinPlushelpScreenFg].y, 100%, 1);
+    tween(layer[SkinPlushelpScreenBg].y, 100%, 1);
+    SkinPlusupdateHelpButtons();
+</action>
+
+<action name="SkinPlusHideHelpButtons">
+		set(layer[SkinPlusbtn_display_help].visible, false);
+		set(layer[SkinPlusbtn_close_help].visible, false);
+</action>
+
+<action name="SkinPlusShowHelpButtons">
+		if (layer[SkinPlushelpScreenFg].displayed,
+			set(layer[SkinPlusbtn_close_help].visible, true);
+			set(layer[SkinPlusbtn_display_help].visible, false);
+		,
+			set(layer[SkinPlusbtn_display_help].visible, true);
+			set(layer[SkinPlusbtn_close_help].visible, false);
+		);
+</action>
+
+<action name="SkinPlusupdateHelpButtons">
+
+		if (tour_displaycontrols,
+			SkinPlusShowHelpButtons();
+		,
+			SkinPlusHideHelpButtons();
+		);
+</action>
+
+
+
+
+<events name="SkinPlusControlplan_pano"
+keep="true"
+onnewpano="set(little, 0);if (SkinPlusIsOpened,set(layer[SkinPlusbtn_little].visible, true);set(layer[SkinPlusbtn_little_off].visible, false););SkinPlusControlplan();"
+
+/>
+
+<action name="SkinPlusControlplan">
+if (scene[get(xml.scene)].planar,
+set(layer[SkinPlusbtn_little].alpha, 0.4);
+set(layer[SkinPlusbtn_little].onclick, "");
+set(layer[SkinPlusbtn_little].tooltip, "SkinPluslittle_disable_tip");
+,
+set(layer[SkinPlusbtn_little].alpha, 1.0);
+set(layer[SkinPlusbtn_little].tooltip, "SkinPluslittle_tip");
+set(layer[SkinPlusbtn_little].onclick, "SkinPlussetViewLittlePlanet();hideHotspots();
+pauseautorotation();
+");
+);
+</action>
+
+
+<action name="SkinPlusHideLittle_btn">
+
+	set(layer[SkinPlusbtn_little].visible, false);
+    set(layer[SkinPlusbtn_little_off].visible, false);
+
+</action>
+
+<action name="SkinPlusShowlittle_btn">
+if ( little != 1,
+	set(layer[SkinPlusbtn_little].visible, true);
+    set(layer[SkinPlusbtn_little_off].visible, false);
+
+    ,
+
+    set(layer[SkinPlusbtn_little].visible, false);
+    set(layer[SkinPlusbtn_little_off].visible, true);
+    );
+</action>
+
+<action name="SkinPlusupdateLittleButtons">
+
+    if (SkinPlusIsOpened,
+
+        SkinPlusShowlittle_btn();
+    ,
+        SkinPlusHideLittle_btn();
+    );
+</action>
+
+
+<action name="SkinPlussetViewLittlePlanet">
+
+
+	set(sceneisfull360, false);
+	if(scene[get(xml.scene)].full360,
+		sub(viewhfov, panoview.hmax, panoview.hmin);
+		if (viewhfov == 360,
+			sub(viewvfov, panoview.vmax, panoview.vmin);
+			if (viewvfov == 180,
+				set(sceneisfull360, true);
+			);
+		);
+	);
+	if (sceneisfull360 AND (device.webgl OR device.flash),
+		if(normalViewActivated,stopSetViewTweens(););
+		if(current_view_isflat === true,
+			setViewNonFlat(VFOV);
+		);
+		SkinPlussetViewLittlePlanetComplete();
+
+        
+	);
+</action>
+
+<action name="SkinPlussetViewLittlePlanetComplete">
+set(little, 1);
+SkinPlusupdateLittleButtons();
+	set(backtonormalfirst,false);
+	if(view.pannini GE 1.0, set(backtonormalfirst,true));
+	if(view.stereographic == false, set(backtonormalfirst,true));
+	if(backtonormalfirst, hideTooltip();tween(view.fisheye, 0.0 ,distance(1.0, 0.25), easeOutQuad, WAIT); );
+	set(view.stereographic, true);
+	set(view.fisheyefovlink, 1.5);
+	tween(view.architectural, 0.0, 0.25);
+	tween(view.vlookat, 90, distance(179, 1.50));
+	tween(view.pannini, 0.0, distance(1.0, 0.75), easeOutQuad, if(panniniViewActivated,restoreViewFromPannini();););
+	if(panoview.fovmax LE 150, set(view.fovmax, 150); , set(view.fovmax, get(panoview.fovmax)); );
+	tween(view.fisheye, 1.0, distance(1.0, 0.75));
+	tween(view.fov, 150, distance(179, 0.75));
+</action>
+
+<action name="SkinPlussetViewNormal">
+
+	if(current_view_isflat === true,
+		setViewNonFlat(VFOV);
+	);
+	SkinPlussetViewNormalComplete();
+</action>
+
+<action name="SkinPlussetViewNormalComplete">
+set(little, 0);
+SkinPlusupdateLittleButtons();
+	set(view.fisheyefovlink, 0.5);
+	set(view.fovmax, get(panoview.fovmax));
+	tween(view.architectural, 0.0, distance(1.0, 0.45));
+	tween(view.pannini, 0.0, distance(1.0, 0.45), easeOutQuad, if(panniniViewActivated,restoreViewFromPannini();););
+	tween(view.vlookat, get(panoview.v), distance(90, 0.45));
+	tween(view.fov, get(panoview.fov), distance(50, 0.45));
+	tween(view.fisheye, 0.0, distance(1.0, 0.45),
+	set(view.stereographic,false);
+	);
+
+</action>
+
+
+
+
+<action name="SkinPlusshow_language_box">
+set(layer[SkinPlusbtn_lang].visible, true);
+set(layer[SkinPlusbtn_lang_off].visible, false);
+</action>
+
+<action name="SkinPlushide_language_box">
+set(layer[SkinPlusbtn_lang_off].visible, true);
+set(layer[SkinPlusbtn_lang].visible, false);
+</action>
+
+
+
+<events name="SkinPlusmenufullscreenchangeevent"
+          onenterfullscreen="SkinPlusupdateFullscreenButtons();"
+          onexitfullscreen="SkinPlusupdateFullscreenButtons();"
+          keep="true"/>
+
+<action name="SkinPlusHideFullscreenButtons">
+		set(layer[SkinPlusbtn_openfs].visible , false);
+		set(layer[SkinPlusbtn_closefs].visible, false);
+</action>
+
+<action name="SkinPlusShowFullscreenButtons">
+		if (device.fullscreensupport,
+        if (!device.ipad,
+			if(tour_fullscreen,
+				set(layer[SkinPlusbtn_openfs].visible , false);
+				set(layer[SkinPlusbtn_closefs].visible, true);
+			,
+				set(layer[SkinPlusbtn_openfs].visible ,true);
+				set(layer[SkinPlusbtn_closefs].visible,false);
+			););
+		,
+			SkinPlusHideFullscreenButtons();
+		);
+</action>
+<action name="SkinPlusupdateFullscreenButtons">
+		if (tour_displaycontrols,
+			SkinPlusShowFullscreenButtons();
+		,
+			SkinPlusHideFullscreenButtons();
+		);
+</action>
+
+<events name="SkinPlusAutorotationEvents"
+		onstartautorotation="SkinPlusupdateAutorotationButtons();"
+		onresumeautorotation="SkinPlusupdateAutorotationButtons();"
+		onstopautorotation="SkinPlusupdateAutorotationButtons();"
+		onpauseautorotation="SkinPlusupdateAutorotationButtons();"
+		keep="true"/>
+
+<action name="SkinPlusHideAutorotationButtons">
+		set(layer[SkinPlusbtn_autorotate_off].visible, false);
+		set(layer[SkinPlusbtn_autorotate_on].visible , false);
+</action>
+<action name="SkinPlusShowAutorotationButtons">
+		if(autorotate.enabled == false,
+			set(layer[SkinPlusbtn_autorotate_off].visible, false);
+			set(layer[SkinPlusbtn_autorotate_on].visible , true);
+		,
+			set(layer[SkinPlusbtn_autorotate_off].visible, true);
+			set(layer[SkinPlusbtn_autorotate_on].visible , false);
+		);
+</action>
+<action name="SkinPlusupdateAutorotationButtons">
+		if (tour_displaycontrols,
+			SkinPlusShowAutorotationButtons();
+		,
+			SkinPlusHideAutorotationButtons();
+		);
+</action>
+
+
+<events name="SkinPlusAutotourEvents"
+		onstartautotour="SkinPlusupdateAutotourButtons();"
+		onstopautotour="SkinPlusupdateAutotourButtons();"
+		keep="true"/>
+<action name="SkinPlusHideAutotourButtons">
+		set(layer[SkinPlusbtn_autotour_off].visible, false);
+		set(layer[SkinPlusbtn_autotour_on].visible , false);
+</action>
+<action name="SkinPlusShowAutotourButtons">
+		if (tour_autotourenabled == false,
+			set(layer[SkinPlusbtn_autotour_off].visible, false);
+			set(layer[SkinPlusbtn_autotour_on].visible , true);
+		,
+			set(layer[SkinPlusbtn_autotour_off].visible, true);
+			set(layer[SkinPlusbtn_autotour_on].visible , false);
+		);
+</action>
+<action name="SkinPlusupdateAutotourButtons">
+		if (tour_displaycontrols,
+			SkinPlusShowAutotourButtons();
+		,
+			SkinPlusHideAutotourButtons();
+		);
+</action>
+
+
+
+<events name="SkinPlushotspotsdisplayevents"
+          hotspots_visibility_changed="SkinPlusupdateHideShowHotspotsButtons"
+          keep="true"/>
+<action name="SkinPlusHideHideShowHotspotsButtons">
+		set(layer[SkinPlusbtn_show_hotspots].visible, false);
+		set(layer[SkinPlusbtn_hide_hotspots].visible, false);
+</action>
+<action name="SkinPlusShowHideShowHotspotsButtons">
+		if (tour_displayspots,
+			set(layer[SkinPlusbtn_hide_hotspots].visible, true);
+			set(layer[SkinPlusbtn_show_hotspots].visible, false);
+		,
+			set(layer[SkinPlusbtn_show_hotspots].visible, true);
+			set(layer[SkinPlusbtn_hide_hotspots].visible, false);
+		);
+</action>
+
+<action name="SkinPlusupdateHideShowHotspotsButtons">
+		if (tour_displaycontrols,
+			SkinPlusShowHideShowHotspotsButtons();
+		,
+			SkinPlusHideHideShowHotspotsButtons();
+		);
+</action>
+
+
+
+
+<layer name="SkinPlusmenuTooltipStyle"
+	keep="true"
+	enabled="false"
+	capture="false"
+	url="%FIRSTXML%/graphics/textfield.swf"
+	align="center"
+	roundedge="5"
+	background="true"
+	backgroundcolor="0xa00000"
+	backgroundalpha="1"
+	border="false"
+	css="color:#ffffff;font-family:Baskerville;font-size:18px;text-align:left;"
+	height="20"
+	autoheight="true"
+	autowidth="auto"
+	padding="10"
+	selectable="false"
+	zorder="0"
+	visible="false"
+	html=""
+	edge="bottom"
+	xoffset="-10"
+	yoffset="-10"
+/>  
+
+
+
+
+
+
+
+
+<layer name="SkinPlusspotTooltipStyle"
+	keep="true"
+	enabled="false"
+	capture="false"
+	url="%FIRSTXML%/graphics/textfield.swf"
+	align="center"
+	roundedge="5"
+     
+	background="true"
+	backgroundcolor="0x931929"
+	backgroundalpha="0.40000000000000002"  
+	border="true"
+	borderwidth="3.0"
+	bordercolor="0x5b5bbd"
+	borderalpha="1"  
+	css="color:#ffffff;font-family:Baskerville;font-size:18px;text-align:left;"
+	height="20"
+	autoheight="true"
+	autowidth="auto"
+	padding="10"
+	selectable="false"
+	zorder="0"
+	visible="false"
+	html=""
+
+    edge="top"
+	xoffset="0"
+	yoffset="10"
+
+
+/>
+ 
+
+
+
+
+<action name="SkinPlusbuildMenu">
+    
+    set(SkinPlusbutton_pos, 0);
+    set(nnn,0);
+
+
+	set(SkinPlusbackgroundwidthwhenclosed, 60);
+
+inc(nnn, 1);
+
+
+    set(layer[SkinPlusbtn_hidecontrols].x, get(SkinPlusbutton_pos));
+
+    set(layer[SkinPlusbtn_showcontrols].x, -get(SkinPlusbutton_pos));
+
+
+    inc(SkinPlusbutton_pos, 70);
+
+
+
+if (device.desktop || device.tablet || device.mobile,
+inc(nnn, 1);
+        set(layer[SkinPlusbtn_display_help].x, get(SkinPlusbutton_pos));
+        set(layer[SkinPlusbtn_close_help].x  , get(SkinPlusbutton_pos));
+        inc(SkinPlusbutton_pos, 70); ); 
+
+
+      if (device.fullscreensupport,
+      if (!device.ipad,
+      inc(nnn, 1);
+        set(layer[SkinPlusbtn_openfs].x , get(SkinPlusbutton_pos));
+        set(layer[SkinPlusbtn_closefs].x, get(SkinPlusbutton_pos));
+        inc(SkinPlusbutton_pos, 70); ); );
+
+
+
+
+
+
+
+
+
+
+
+if (device.desktop || device.tablet || device.mobile,
+inc(nnn, 1);
+      set(layer[SkinPlusbtn_shotp].x, get(SkinPlusbutton_pos));
+      inc(SkinPlusbutton_pos, 70); ); 
+
+
+
+
+
+
+
+
+
+
+
+
+if (device.desktop || device.tablet || device.mobile,
+inc(nnn, 1);
+      set(layer[SkinPlusbtn_autorotate_on].x , get(SkinPlusbutton_pos));
+      set(layer[SkinPlusbtn_autorotate_off].x, get(SkinPlusbutton_pos));
+      inc(SkinPlusbutton_pos, 70); ); 
+
+
+if (device.desktop || device.tablet || device.mobile,
+inc(nnn, 1);
+      set(layer[SkinPlusbtn_autotour_on].x , get(SkinPlusbutton_pos));
+      set(layer[SkinPlusbtn_autotour_off].x, get(SkinPlusbutton_pos));
+      inc(SkinPlusbutton_pos, 70); ); 
+
+
+   if (device.desktop || device.tablet || device.mobile,
+   inc(nnn, 1);
+      set(layer[SkinPlusbtn_show_thumbnails].x, get(SkinPlusbutton_pos));
+      set(layer[SkinPlusbtn_hide_thumbnails].x, get(SkinPlusbutton_pos));
+      inc(SkinPlusbutton_pos, 70); );
+ 
+
+
+
+if (device.desktop || device.tablet || device.mobile,
+inc(nnn, 1);
+        set(layer[SkinPlusbtn_show_hotspots].x, get(SkinPlusbutton_pos));
+        set(layer[SkinPlusbtn_hide_hotspots].x, get(SkinPlusbutton_pos));
+        inc(SkinPlusbutton_pos, 70); );
+
+
+
+
+
+
+
+
+ if (device.desktop || device.tablet || device.mobile,
+set(layer[SkinPlusbtn_home].x,
+get(SkinPlusbutton_pos));
+inc(SkinPlusbutton_pos, 70);
+);
+
+
+
+
+
+if (device.desktop || device.tablet || device.mobile,
+    if (scene.count GT 1,
+    inc(nnn, 2);
+        set(layer[SkinPlusbtn_next_pano].x, get(SkinPlusbutton_pos));
+        inc(SkinPlusbutton_pos, 70);
+        set(layer[SkinPlusbtn_prev_pano].x, get(SkinPlusbutton_pos));
+        inc(SkinPlusbutton_pos, 70);
+      );
+);
+
+if (device.desktop || device.tablet || device.mobile,
+
+      dec(SkinPlusbutton_pos, 10);
+      set(SkinPlusbackgroundwidthwhenopened, get(SkinPlusbutton_pos));
+      set(layer[SkinPlus_menu_bg].width, get(SkinPlusbackgroundwidthwhenopened));
+	 
+);
+</action>
+
+
+
+
+<events name="SkinPlusStartTourEvents" onTourStart="SkinPlusCallOnStartTour();" keep="true" />
+<action name="SkinPlusCallOnStartTour">
+
+		
+		showTourControls();
+
+
+</action>
+
+
+<action name="SkinPlusbluron" type="Javascript" >
+myname = 'blur(10px)'
+$("canvas")
+  .css('filter',myname),
+  ('-webkitFilter',myname),
+  ('-mozFilter',myname),
+  ('-oFilter',myname),
+  ('-msFilter',myname);
+</action>
+
+<action name="SkinPlusbluroff" type="Javascript" >
+$( "canvas" ).css({"-webkit-filter": "blur(0px)","filter": "blur(0px)" });
+</action>
+<style name="button" type="text"
+	       css="text-align:center;"
+	       padding="4 8"
+	       mergedalpha="false"
+	       bgborder="4 0xFFFFFF 1"
+	       bgroundedge="5"
+	       bgshadow="0 1 4 0x000000 1.0"
+	       onover="set(bgcolor, 0xC7E4FC);"
+	       onout="calc(bgcolor, pressed ? 0x90CAF9 : 0xFFFFFF);"
+	       ondown="set(bgcolor, 0x90CAF9);"
+	       onup="calc(bgcolor, hovering ? 0xC7E4FC : 0xFFFFFF);"
+	       />
+
+
+<events name = "SkinPlustrace_title"
+keep="true"
+onnewpano="SkinPlusloggo();"
+onclick="SkinPlusbluroff();set(enabled,false);tween(alpha,0,0,default,removelayer(screenshot,true));"
+/>
+
+<action name = "SkinPlusloggo">
+getmessage(namepanok, get(scene[get(xml.scene)].titleid));
+escape(namepanok.html);
+</action>
+
+<action name="SkinPlusmakescreenshot_init" type="Javascript" autorun="onstart"> <![CDATA[
+
+        krpano.loadFile("%FIRSTXML%/graphics/skinplus3.5.1/filesaver.js", function(file)
+        {eval(file.data.replace("export ",""));
+        krpano.screenshotSaveAs = saveAs;});
+        krpano.makescreenshot_count = 1;
+        var imageObj = new Image();
+        krpano.makescreenshot_o = function()
+        {krpano.call("removelayer(screenshot,true);bluroff();");
+        krpano.makeScreenshotCache = {};
+        var sizeinfo = {w:0, h:0};
+        var screenshotcanvas = krpano.webGL.makeScreenshot(0, 0, false, "canvas", 0, null, sizeinfo, krpano.makeScreenshotCache);
+        var ctx = screenshotcanvas.getContext("2d");
+
+        imageObj.onload = function() {
+        var width = "300";
+        var height = "90";
+        ctx.drawImage(imageObj, 40 , 40, width, height);
+
+        ctx.font = "20px Arial";
+        ctx.fillStyle = "#ffffff";
+        var namepanoko = String( krpano.get("namepanok"));
+        ctx.textAlign = "end";
+        ctx.fillText("", screenshotcanvas.width-30,screenshotcanvas.height-30);
+        //ctx.fillText(namepanoko, screenshotcanvas.width-30, screenshotcanvas.height-66);
+        if (screenshotcanvas){
+        krpano.call("SkinPlusbluron();");
+        var container = krpano.addlayer("screenshot");
+        container.type = "container";
+        container.align="center";
+        container.registercontentsize(sizeinfo.w, sizeinfo.h);
+        container.width  = sizeinfo.w > sizeinfo.h ? "45%" : "prop";
+        container.height = sizeinfo.w > sizeinfo.h ? "prop" : "45%";
+        container.bgcolor = 0x000000;
+        container.bgalpha = 1.0;
+        container.bgshadow = "0 5 40 0x000000 1.0";
+        container.bgroundedge = 5;
+        container.bgcapture = true;
+        container.zorder = 99;
+        container.onloaded = "tween(layer[screenshotsaveasbutton].alpha,1,0.2);tween(layer[screenshotclosebutton].alpha,1,0.2)";
+        var image = krpano.addlayer("screenshotimage");
+        image.url = screenshotcanvas.toDataURL();
+        image.parent = "screenshot";
+        image.align = "center";
+        image.width = -5;
+        image.height = -5;
+        image.zorder = 1;
+        image.enabled = false;
+        }
+
+if (screenshotcanvas.toBlob)
+	{
+		var saveasbutton = krpano.addlayer("screenshotsaveasbutton");
+		saveasbutton.loadstyle("button");
+		saveasbutton.parent = "screenshot";
+		saveasbutton.align = "bottom";
+		saveasbutton.y = 20;
+		saveasbutton.zorder = 2;
+		saveasbutton.autoalpha = true;
+		saveasbutton.alpha = 0;
+		saveasbutton.html = "Save";
+		saveasbutton.onclick = function()
+		{
+			// save as JPEG with 92% quality
+			screenshotcanvas.toBlob(function(blob){ krpano.screenshotSaveAs(blob,"Ristorante_CORONA" + (krpano.makescreenshot_count++) + ".jpg"); }, "image/jpg", 0.5);
+            krpano.call("removelayer(screenshot,true);SkinPlusbluroff();set(enabled,false);");
+		};
+
+        var closebutton = krpano.addlayer("screenshotclosebutton");
+		closebutton.loadstyle("button");
+		closebutton.parent = "screenshot";
+		closebutton.align = "topright";
+		closebutton.y = 20;
+		closebutton.x = 20;
+		closebutton.zorder = 2;
+		closebutton.autoalpha = true;
+		closebutton.alpha = 0;
+		closebutton.html = "x";
+		closebutton.onclick="SkinPlusbluroff();set(enabled,false);tween(alpha,0,0,default,removelayer(screenshot,true));"
+	}
+      };
+      imageObj.src = 'RistoranteCorona_VTdata/graphics/skinplus3.5.1/logo.jpg';
+}
+
+]]>
+</action>
+
+
+
+
+	<plugin name="ptpvrmode" devices="html5" keep="true"
+		url="%FIRSTXML%/graphics/webvr.js"
+		mobilevr_support="true"
+		mobilevr_fake_support="false"
+		vr_cursor=""
+		vr_cursor_enabled="false"
+		onavailable="delayedcall(1, checkVrAvailability(););"
+		onunavailable="checkVrUnavailable();"
+		/>
+	<action name="checkVrAvailability">
+		if(plugin[ptpvrmode],
+			if (plugin[ptpvrmode].isavailable,
+				set(tour_vrdevices, true);
+				events.dispatch(onvravailable);
+			,
+				set(tour_vrdevices, false);
+			);
+		,
+			checkVrUnavailable();
+		);
+	</action>
+	<action name="checkVrUnavailable">
+		set(tour_vrdevices, false);
+		events.dispatch(onvrunavailable);
+	</action>
+<action name="setViewFisheye">
+	set(sceneisfull360, false);
+	if(scene[get(xml.scene)].full360,
+		sub(viewhfov, panoview.hmax, panoview.hmin);
+		if (viewhfov == 360,
+			sub(viewvfov, panoview.vmax, panoview.vmin);
+			if (viewvfov == 180,
+				set(sceneisfull360, true);
+			);
+		);
+	);
+	if (sceneisfull360 AND (device.webgl OR device.flash),
+		if(normalViewActivated,stopSetViewTweens(););
+		if(current_view_isflat === true,
+			setViewNonFlat(VFOV);
+		);
+		setViewFisheyeComplete();
+	);
+</action>
+
+<action name="setViewFisheyeComplete">
+	set(view.fisheyefovlink, 1.5);
+	set(view.fovmax, get(panoview.fovmax));
+	tween(view.architectural, 0.0, distance(1.0, 0.30));
+	tween(view.fisheye, 0.0, distance(1.0, 0.30), easeOutQuad,
+		set(view.stereographic,false);
+		tween(view.fisheye, 0.45, distance(1.0, 0.75));
+		tween(view.vlookat, get(panoview.v), distance(90, 0.45));
+	);
+	tween(view.pannini, 0.0, distance(1.0, 0.75), easeOutQuad, if(panniniViewActivated,restoreViewFromPannini();););
+	tween(view.fov, get(panoview.fov), distance(50, 0.45));
+</action>
+
+  <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);js(setFullscreen(false));</action>
+  <action name="enterFullScreen" devices="fullscreensupport">set(tour_fullscreen,true);js(setFullscreen(true));</action>
+  <action name="switchFullScreen">if(tour_fullscreen,exitFullScreen();,enterFullScreen(););</action>
+
+  
+  <events name="krpanoExitFullscreenEvent"
+    onexitfullscreen="if(tour_fullscreen,exitFullScreenChangeEvent(););"
+    keep="true" />
+
+  <action name="exitFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,false);events.dispatch(onexitfullscreen);</action>
+  <action name="enterFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,true);events.dispatch(onenterfullscreen);</action>
+  <action name="exitFullScreenFallback">set(fullscreen,false);</action>
+  <action name="enterFullScreenFallback">set(fullscreen,true);</action>
+  
+  <action name="resizeFullScreenEvent">delayedcall(0,updatescreen(););</action>
+
+<action name="setViewNormal">
+	stopSetViewTweens();
+	if(current_view_isflat === true,
+		setViewNonFlat(VFOV);
+	);
+	setViewNormalComplete();
+</action>
+
+<action name="setViewNormalComplete">
+	set(view.fisheyefovlink, 0.5);
+	set(view.fovmax, get(panoview.fovmax));
+	tween(view.architectural, 0.0, distance(1.0, 0.45));
+	tween(view.pannini, 0.0, distance(1.0, 0.45), easeOutQuad, if(panniniViewActivated,restoreViewFromPannini();););
+	tween(view.vlookat, get(panoview.v), distance(90, 0.45));
+	tween(view.fov, get(panoview.fov), distance(50, 0.45));
+	tween(view.fisheye, 0.0, distance(1.0, 0.45),
+		set(view.stereographic,false);
+	);
+</action>
+
+<krpano normalViewActivated="true" />
+<action name="stopSetViewTweens">
+	stoptween(view.fov);
+	stoptween(view.vlookat);
+	stoptween(view.fisheye);
+	stoptween(view.architectural);
+	stoptween(view.pannini);
+</action>
+<action name="setTourLanguage">
+  if (%1 == null,
+    showlog();
+    trace("CHANGE TOUR LANGUAGE : NO LANGUAGE SET");
+   ,
+    set(tour_language, %1);
+    js(eventTourChangeLanguage(get(tour_language)));
+    events.dispatch(changetourlanguage);
+  );
+</action>
+
+  <action name="hideTourControls">set(tour_displaycontrols, false);events.dispatch(hidetourcontrols);</action>
+  <action name="showTourControls">set(tour_displaycontrols, true); events.dispatch(showtourcontrols);</action>
+
+
+<action name="setViewLittlePlanet">
+	set(sceneisfull360, false);
+	if(scene[get(xml.scene)].full360,
+		sub(viewhfov, panoview.hmax, panoview.hmin);
+		if (viewhfov == 360,
+			sub(viewvfov, panoview.vmax, panoview.vmin);
+			if (viewvfov == 180,
+				set(sceneisfull360, true);
+			);
+		);
+	);
+	if (sceneisfull360 AND (device.webgl OR device.flash),
+		if(normalViewActivated,stopSetViewTweens(););
+		if(current_view_isflat === true,
+			setViewNonFlat(VFOV);
+		);
+		setViewLittlePlanetComplete();
+	);
+</action>
+
+<action name="setViewLittlePlanetComplete">
+	set(backtonormalfirst,false);
+	if(view.pannini GE 1.0, set(backtonormalfirst,true));
+	if(view.stereographic == false, set(backtonormalfirst,true));
+	if(backtonormalfirst, hideTooltip();tween(view.fisheye, 0.0 ,distance(1.0, 0.25), easeOutQuad, WAIT); );
+	set(view.stereographic, true);
+	set(view.fisheyefovlink, 1.5);
+	tween(view.architectural, 0.0, 0.25);
+	tween(view.vlookat, 90, distance(179, 1.50));
+	tween(view.pannini, 0.0, distance(1.0, 0.75), easeOutQuad, if(panniniViewActivated,restoreViewFromPannini();););
+	if(panoview.fovmax LE 150, set(view.fovmax, 150); , set(view.fovmax, get(panoview.fovmax)); );
+	tween(view.fisheye, 1.0, distance(1.0, 0.75));
+	tween(view.fov, 150, distance(179, 0.75));
+</action>
+
+  <action name="hideTourThumbnails">set(tour_displaythumbnails, false);events.dispatch(hidetourthumbnails);</action>
+  <action name="showTourThumbnails">set(tour_displaythumbnails, true); events.dispatch(showtourthumbnails);</action>
+
+
+</krpano>
